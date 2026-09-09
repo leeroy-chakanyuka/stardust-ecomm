@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Local-only design palette (personal reference, not committed)
+palette.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
