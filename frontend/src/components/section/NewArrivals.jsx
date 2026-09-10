@@ -6,6 +6,7 @@ import jeansImg from "../../assets/img/jeans.jpg";
 import teeImg from "../../assets/img/tee.jpeg";
 import dressImg from "../../assets/img/dress.jpg";
 import shortsImg from "../../assets/img/shorts.jpg";
+import flowerPotImg from "../../assets/img/flower_pot.jpg";
 
 const Carousel = CarouselImport?.default ?? CarouselImport;
 
@@ -19,7 +20,8 @@ const items = [
   { name: " t-shirts      ", tag: "womens", image: teeImg },
   { name: "jeans", tag: "mens", image: jeansImg },
   { name: "summer dresses", tag: "womens", image: dressImg },
-  { name: "shorts", tag: "home", image: shortsImg },
+  { name: "shorts", tag: "mens", image: shortsImg },
+  { name: "flower_pot", tag: "home", image: flowerPotImg },
 ];
 
 function NewArrivals() {

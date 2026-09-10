@@ -1,6 +1,6 @@
 export default function Card({ title, image }) {
   return (
-    <div>
+    <div className="transition-transform duration-300 hover:-translate-y-1">
       {image ? (
         <img
           src={image}
