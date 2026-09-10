@@ -28,13 +28,9 @@ if not files:
 session = new_session("u2net")
 failed = 0
 for src in files:
-    dest = OUT / f"{src.stem}.transparent.png"
-    if (
-        not FORCE
-        and dest.exists()
-        and dest.stat().st_mtime >= src.stat().st_mtime
-    ):
-        print(f"skip  {src.name} (up to date)")
+    dest = OUT / f"{src.stem}.png"
+    if not FORCE and dest.exists():
+        print(f"skip  {src.name} (already in processed/)")
         continue
     print(f"work  {src.name} ...", flush=True)
     try:

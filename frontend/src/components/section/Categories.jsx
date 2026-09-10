@@ -1,17 +1,21 @@
 import Heading from "./headings/Heading";
 import ArrowIcon from "../common/ArrowIcon";
+import TeeIcon from "../common/TeeIcon";
+import BagIcon from "../common/BagIcon";
+import TeddyIcon from "../common/TeddyIcon";
+import MugIcon from "../common/MugIcon";
 
 const categories = [
-  { name: "mens", tile: "bg-[#E8EDF3]" },
-  { name: "womens", tile: "bg-[#FBE4E9]" },
-  { name: "kids", tile: "bg-[#EFE9DC]" },
-  { name: "home", tile: "bg-[#E4E9DF]" },
+  { name: "men", tile: "bg-[#E8EDF3]", Icon: TeeIcon },
+  { name: "women", tile: "bg-[#FBE4E9]", Icon: BagIcon },
+  { name: "kids", tile: "bg-[#EFE9DC]", Icon: TeddyIcon },
+  { name: "home", tile: "bg-[#E4E9DF]", Icon: MugIcon },
 ];
 
 function Categories() {
   return (
     <section className="bg-white">
-      <div className="mx-auto max-w-7xl px-8 py-16">
+      <div className="mx-auto max-w-6xl px-8 py-16">
         <div className="text-center">
           <Heading title="shop by category" eyebrow="find your thing" />
         </div>
@@ -20,9 +24,12 @@ function Categories() {
             <li key={category.name}>
               <a
                 href={`#${category.name}`}
-                className={`group flex aspect-[4/3] items-end rounded-xl p-5 transition-transform hover:-translate-y-1 ${category.tile}`}
+                className={`group relative flex aspect-[4/3] items-end overflow-hidden rounded-xl p-5 transition-transform hover:-translate-y-1 ${category.tile}`}
               >
-                <span className="flex items-center gap-2 font-barlow text-base font-semibold lowercase text-neutral-800">
+                <div className="absolute inset-0 flex items-center justify-center text-[#4A3F3A]">
+                  <category.Icon />
+                </div>
+                <span className="relative flex items-center gap-2 font-barlow text-base font-semibold lowercase text-neutral-800">
                   {category.name}
                   <ArrowIcon className="transition-transform group-hover:translate-x-1" />
                 </span>
