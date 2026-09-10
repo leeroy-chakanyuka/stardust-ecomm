@@ -1,0 +1,41 @@
+[
+  {
+    "title": "mens",
+    "data": [
+      {
+        "title": "slim jeans",
+        "desc": "everyday slim denim",
+        "img": "jeans.jpg"
+      }
+    ]
+  },
+  {
+    "title": "womens",
+    "data": [
+      {
+        "title": "noir tee",
+        "desc": "oversized black tee",
+        "img": "tee.jpeg"
+      },
+      {
+        "title": "summer dress",
+        "desc": "leaf-print belted dress",
+        "img": "dress.jpg"
+      }
+    ]
+  },
+  {
+    "title": "kids",
+    "data": []
+  },
+  {
+    "title": "home",
+    "data": [
+      {
+        "title": "sage candle",
+        "desc": "soft herbal scent",
+        "img": null
+      }
+    ]
+  }
+]
