@@ -3,17 +3,41 @@ import heroNoButton from "../../assets/img/hero_no_button.png";
 function HeroPill({ className = "" }) {
   return (
     <div
-      className={`overflow-hidden rounded-full border-2 border-rose-400 font-barlow text-sm font-semibold lowercase tracking-wider ${className}`}
+      className={`relative overflow-hidden rounded-full font-barlow text-sm font-semibold lowercase tracking-wider ${className}`}
     >
+      <svg
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 h-full w-full"
+        viewBox="0 0 100 46"
+        preserveAspectRatio="none"
+        fill="none"
+      >
+        <rect
+          x="1"
+          y="1"
+          width="98"
+          height="44"
+          rx="22"
+          stroke="#fb7185"
+          strokeWidth="2"
+          vectorEffect="non-scaling-stroke"
+        />
+        <path
+          d="M 37 1 Q 44 23 37 45"
+          stroke="#fb7185"
+          strokeWidth="2"
+          vectorEffect="non-scaling-stroke"
+        />
+      </svg>
       <a
         href="#discover"
-        className="w-1/3 bg-rose-400 px-4 py-3 text-center text-white transition-colors hover:bg-rose-500"
+        className="relative z-10 -mr-4 w-[38%] rounded-r-full bg-rose-400 px-4 py-3 text-center text-white transition-colors hover:bg-rose-500"
       >
         discover
       </a>
       <a
         href="#shop"
-        className="flex-1 bg-white/70 px-4 py-3 text-center text-rose-500 transition-colors hover:bg-rose-50"
+        className="flex-1 bg-white/70 py-3 pl-8 pr-4 text-center text-rose-500 transition-colors hover:bg-rose-50"
       >
         shop now
       </a>
