@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Heading from "./headings/Heading";
 import ArrowIcon from "../common/ArrowIcon";
 import TeeIcon from "../common/TeeIcon";
@@ -6,10 +7,10 @@ import TeddyIcon from "../common/TeddyIcon";
 import MugIcon from "../common/MugIcon";
 
 const categories = [
-  { name: "men", tile: "bg-[#E8EDF3]", Icon: TeeIcon },
-  { name: "women", tile: "bg-[#FBE4E9]", Icon: BagIcon },
-  { name: "kids", tile: "bg-[#EFE9DC]", Icon: TeddyIcon },
-  { name: "home", tile: "bg-[#E4E9DF]", Icon: MugIcon },
+  { name: "men", slug: "mens", tile: "bg-[#E8EDF3]", Icon: TeeIcon },
+  { name: "women", slug: "womens", tile: "bg-[#FBE4E9]", Icon: BagIcon },
+  { name: "kids", slug: "kids", tile: "bg-[#EFE9DC]", Icon: TeddyIcon },
+  { name: "home", slug: "home", tile: "bg-[#E4E9DF]", Icon: MugIcon },
 ];
 
 function Categories() {
@@ -21,9 +22,9 @@ function Categories() {
         </div>
         <ul className="mt-8 grid list-none grid-cols-2 gap-4 p-0 lg:grid-cols-4">
           {categories.map((category) => (
-            <li key={category.name}>
-              <a
-                href={`#${category.name}`}
+            <li key={category.slug}>
+              <Link
+                to={`/shop/${category.slug}`}
                 className={`group relative flex aspect-[4/3] items-end overflow-hidden rounded-xl p-5 transition-transform hover:-translate-y-1 ${category.tile}`}
               >
                 <div className="absolute inset-0 flex items-center justify-center text-[#4A3F3A]">
@@ -33,7 +34,7 @@ function Categories() {
                   {category.name}
                   <ArrowIcon className="transition-transform group-hover:translate-x-1" />
                 </span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

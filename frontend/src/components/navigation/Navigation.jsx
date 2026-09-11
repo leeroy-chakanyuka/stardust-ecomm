@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import AccountIcon from "../common/AccountIcon";
 import CartIcon from "../common/CartIcon";
 import WishlistIcon from "../common/WishlistIcon";
@@ -7,9 +8,13 @@ function Navigation() {
     <nav className="flex items-center gap-8 py-6 px-8 justify-between">
       <div className="flex items-center gap-6">
         {/* logo would go here, for now we'll put an h2*/}
-        <h2 className="font-display text-3xl font-semibold lowercase tracking-tight text-neutral-800 select-none">
+        <Link
+          to="/"
+          aria-label="stardust home"
+          className="font-display text-3xl font-semibold lowercase tracking-tight text-neutral-800 select-none"
+        >
           stardust<span className="text-rose-400">.</span>
-        </h2>
+        </Link>
       </div>
 
       {/* search bar - maybe later on we should make theese seperate components for better readability. rounded feels more neutral than rounded-full
@@ -43,44 +48,44 @@ function Navigation() {
         <ul className="m-0 flex list-none items-center gap-16 p-0">
           <li>
             {/* keep all the text a grey, rose on hover */}
-            <a
-              href="#"
+            <Link
+              to="/shop"
               className="text-base lowercase tracking-wide text-neutral-600 hover:text-rose-500 transition-colors"
             >
               shop
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              to="/shop/mens"
               className="text-base lowercase tracking-wide text-neutral-600 hover:text-rose-500 transition-colors"
             >
               mens
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              to="/shop/womens"
               className="text-base lowercase tracking-wide text-neutral-600 hover:text-rose-500 transition-colors"
             >
               womens
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              to="/shop/kids"
               className="text-base lowercase tracking-wide text-neutral-600 hover:text-rose-500 transition-colors"
             >
               kids
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href="#"
+            <Link
+              to="/shop/home"
               className="text-base lowercase tracking-wide text-neutral-600 hover:text-rose-500 transition-colors"
             >
               home
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

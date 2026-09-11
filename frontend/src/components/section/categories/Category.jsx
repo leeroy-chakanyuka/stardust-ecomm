@@ -1,4 +1,3 @@
-import React from "react";
 import Heading from "../headings/Heading";
 import Card from "../../card/card";
 
