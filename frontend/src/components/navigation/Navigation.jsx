@@ -57,18 +57,18 @@ function Navigation() {
           </li>
           <li>
             <Link
-              to="/shop/mens"
+              to="/shop/men"
               className="text-base lowercase tracking-wide text-neutral-600 hover:text-rose-500 transition-colors"
             >
-              mens
+              men
             </Link>
           </li>
           <li>
             <Link
-              to="/shop/womens"
+              to="/shop/women"
               className="text-base lowercase tracking-wide text-neutral-600 hover:text-rose-500 transition-colors"
             >
-              womens
+              women
             </Link>
           </li>
           <li>

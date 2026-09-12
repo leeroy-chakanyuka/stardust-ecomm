@@ -5,13 +5,15 @@ import TeeIcon from "../common/TeeIcon";
 import BagIcon from "../common/BagIcon";
 import TeddyIcon from "../common/TeddyIcon";
 import MugIcon from "../common/MugIcon";
+import catalog from "../../data/categories.json";
 
-const categories = [
-  { name: "men", slug: "mens", tile: "bg-[#E8EDF3]", Icon: TeeIcon },
-  { name: "women", slug: "womens", tile: "bg-[#FBE4E9]", Icon: BagIcon },
-  { name: "kids", slug: "kids", tile: "bg-[#EFE9DC]", Icon: TeddyIcon },
-  { name: "home", slug: "home", tile: "bg-[#E4E9DF]", Icon: MugIcon },
-];
+/* maybe find images for these later  */
+const tileByCode = {
+  MEN: { tile: "bg-[#E8EDF3]", Icon: TeeIcon },
+  WOMEN: { tile: "bg-[#FBE4E9]", Icon: BagIcon },
+  KIDS: { tile: "bg-[#EFE9DC]", Icon: TeddyIcon },
+  HOME: { tile: "bg-[#E4E9DF]", Icon: MugIcon },
+};
 
 function Categories() {
   return (
@@ -21,22 +23,26 @@ function Categories() {
           <Heading title="shop by category" eyebrow="find your thing" />
         </div>
         <ul className="mt-8 grid list-none grid-cols-2 gap-4 p-0 lg:grid-cols-4">
-          {categories.map((category) => (
-            <li key={category.slug}>
-              <Link
-                to={`/shop/${category.slug}`}
-                className={`group relative flex aspect-[4/3] items-end overflow-hidden rounded-xl p-5 transition-transform hover:-translate-y-1 ${category.tile}`}
-              >
-                <div className="absolute inset-0 flex items-center justify-center text-[#4A3F3A]">
-                  <category.Icon />
-                </div>
-                <span className="relative flex items-center gap-2 font-barlow text-base font-semibold lowercase text-neutral-800">
-                  {category.name}
-                  <ArrowIcon className="transition-transform group-hover:translate-x-1" />
-                </span>
-              </Link>
-            </li>
-          ))}
+          {catalog.categories.map((category) => {
+            const ui = tileByCode[category.code] ?? tileByCode.MEN;
+            const Icon = ui.Icon;
+            return (
+              <li key={category.id}>
+                <Link
+                  to={category.path}
+                  className={`group relative flex aspect-[4/3] items-end overflow-hidden rounded-xl p-5 transition-transform hover:-translate-y-1 ${ui.tile}`}
+                >
+                  <div className="absolute inset-0 flex items-center justify-center text-[#4A3F3A]">
+                    <Icon />
+                  </div>
+                  <span className="relative flex items-center gap-2 font-barlow text-base font-semibold lowercase text-neutral-800">
+                    {category.name}
+                    <ArrowIcon className="transition-transform group-hover:translate-x-1" />
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>
