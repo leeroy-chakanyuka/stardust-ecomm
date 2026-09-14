@@ -6,7 +6,7 @@ export default function Categories({
   selected = [],
   onToggle,
   onClear,
-  defaultOpen = true,
+  defaultOpen = false,
 }) {
   const [open, setOpen] = useState(defaultOpen);
   const [expanded, setExpanded] = useState(false);
