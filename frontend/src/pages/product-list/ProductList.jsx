@@ -3,8 +3,9 @@ import { Link, useParams } from "react-router-dom";
 import Navigation from "../../components/navigation/Navigation";
 import Footer from "../../components/footer/Footer";
 import catalog from "../../data/categories.json";
-import { GENDERS, getTypeLabel } from "../../data/taxonomy";
+import { GENDERS, getTypeLabel, priceBoundsFor } from "../../data/taxonomy";
 import Categories from "../../components/filters/Categories";
+import Prices from "../../components/filters/Prices";
 
 /* make the recieved url parameter lowercase then look for a category match in recieved data it could from clicking category
  * to illustrate, our data would look something like this:
@@ -54,11 +55,13 @@ export default function ProductList() {
 
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedGenders, setSelectedGenders] = useState([]);
+  const [priceRange, setPriceRange] = useState(null);
 
   /* if we change the category ie men to women, reset the filters */
   useEffect(() => {
     setSelectedTypes([]);
     setSelectedGenders([]);
+    setPriceRange(null);
   }, [slug]);
 
   /* category exists, so just return products filtered by this category id */
@@ -93,6 +96,9 @@ export default function ProductList() {
     count: allProducts.filter((p) => p.gender === g.id).length,
   })).filter((g) => g.count > 0);
 
+  /* price rail bounds for this list */
+  const priceBounds = priceBoundsFor(allProducts);
+
   /* pretty simple, just create a map for the types in the product array */
   let availableTypes;
   if (category?.types?.length) {
@@ -117,11 +123,12 @@ export default function ProductList() {
       .sort((a, b) => a.name.localeCompare(b.name));
   }
 
-  /* apply the checked type + gender filters, if any */
+  /* apply the checked type + gender + price filters, if any */
   const products = allProducts.filter(
     (p) =>
       (selectedTypes.length === 0 || selectedTypes.includes(p.type_id)) &&
-      (selectedGenders.length === 0 || selectedGenders.includes(p.gender)),
+      (selectedGenders.length === 0 || selectedGenders.includes(p.gender)) &&
+      (!priceRange || (p.price >= priceRange[0] && p.price <= priceRange[1])),
   );
 
   let title;
@@ -152,6 +159,13 @@ export default function ProductList() {
             <p className="mt-3 font-barlow text-sm lowercase text-neutral-600">
               {description}
             </p>
+            <Prices
+              bounds={priceBounds}
+              value={priceRange}
+              onChange={setPriceRange}
+              onClear={() => setPriceRange(null)}
+              collapsible={false}
+            />
             <Categories
               title="gender"
               types={availableGenders}

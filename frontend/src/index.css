@@ -86,3 +86,18 @@
     color: #fff;
   }
 }
+
+/* price range slider theme (react-range-slider-input, palette.json) */
+.range-slider {
+  height: 4px;
+  background: #c9cfc0;
+}
+.range-slider .range-slider__range {
+  background: #e8a0b4;
+}
+.range-slider .range-slider__thumb {
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border: 2px solid #8a7e78;
+}

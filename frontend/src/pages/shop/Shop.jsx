@@ -3,14 +3,16 @@ import { Link } from "react-router-dom";
 import Navigation from "../../components/navigation/Navigation";
 import Footer from "../../components/footer/Footer";
 import catalog from "../../data/categories.json";
-import { GENDERS, getTypeLabel } from "../../data/taxonomy";
+import { GENDERS, getTypeLabel, priceBoundsFor } from "../../data/taxonomy";
 import Categories from "../../components/filters/Categories";
+import Prices from "../../components/filters/Prices";
 
 export default function Shop() {
   const allProducts = catalog.products;
 
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedGenders, setSelectedGenders] = useState([]);
+  const [priceRange, setPriceRange] = useState(null);
 
   const toggleType = (id) =>
     setSelectedTypes((prev) =>
@@ -50,11 +52,15 @@ export default function Shop() {
     }))
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  /* apply the checked type + gender filters, if any */
+  /* price rail bounds for this list */
+  const priceBounds = priceBoundsFor(allProducts);
+
+  /* apply the checked type + gender + price filters, if any */
   const products = allProducts.filter(
     (p) =>
       (selectedTypes.length === 0 || selectedTypes.includes(p.type_id)) &&
-      (selectedGenders.length === 0 || selectedGenders.includes(p.gender)),
+      (selectedGenders.length === 0 || selectedGenders.includes(p.gender)) &&
+      (!priceRange || (p.price >= priceRange[0] && p.price <= priceRange[1])),
   );
 
   return (
@@ -73,6 +79,13 @@ export default function Shop() {
             <p className="mt-3 font-barlow text-sm lowercase text-neutral-600">
               {products.length} products across all categories
             </p>
+            <Prices
+              bounds={priceBounds}
+              value={priceRange}
+              onChange={setPriceRange}
+              onClear={() => setPriceRange(null)}
+              collapsible={false}
+            />
             <Categories
               title="gender"
               types={availableGenders}
