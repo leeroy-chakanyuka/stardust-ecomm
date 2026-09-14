@@ -5,6 +5,7 @@ import Footer from "../../components/footer/Footer";
 import catalog from "../../data/categories.json";
 import { GENDERS, getTypeLabel, priceBoundsFor } from "../../data/taxonomy";
 import Categories from "../../components/filters/Categories";
+import Colors from "../../components/filters/Colors";
 import Prices from "../../components/filters/Prices";
 
 /* make the recieved url parameter lowercase then look for a category match in recieved data it could from clicking category
@@ -55,12 +56,14 @@ export default function ProductList() {
 
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedGenders, setSelectedGenders] = useState([]);
+  const [selectedColors, setSelectedColors] = useState([]);
   const [priceRange, setPriceRange] = useState(null);
 
   /* if we change the category ie men to women, reset the filters */
   useEffect(() => {
     setSelectedTypes([]);
     setSelectedGenders([]);
+    setSelectedColors([]);
     setPriceRange(null);
   }, [slug]);
 
@@ -81,6 +84,11 @@ export default function ProductList() {
       prev.includes(id) ? prev.filter((g) => g !== id) : [...prev, id],
     );
 
+  const toggleColor = (id) =>
+    setSelectedColors((prev) =>
+      prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id],
+    );
+
   /* map every type id to its display name, so shop-all can list types */
   const typeNameById = new Map();
   catalog.categories.forEach((c) => {
@@ -98,6 +106,17 @@ export default function ProductList() {
 
   /* price rail bounds for this list */
   const priceBounds = priceBoundsFor(allProducts);
+
+  /* color options present in this list */
+  const colorCounts = {};
+  allProducts.forEach((p) => {
+    (p.color || []).forEach((c) => {
+      colorCounts[c] = (colorCounts[c] ?? 0) + 1;
+    });
+  });
+  const availableColors = Object.entries(colorCounts)
+    .map(([name, count]) => ({ id: name, name, count }))
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   /* pretty simple, just create a map for the types in the product array */
   let availableTypes;
@@ -123,11 +142,13 @@ export default function ProductList() {
       .sort((a, b) => a.name.localeCompare(b.name));
   }
 
-  /* apply the checked type + gender + price filters, if any */
+  /* apply the checked type + gender + color + price filters, if any */
   const products = allProducts.filter(
     (p) =>
       (selectedTypes.length === 0 || selectedTypes.includes(p.type_id)) &&
       (selectedGenders.length === 0 || selectedGenders.includes(p.gender)) &&
+      (selectedColors.length === 0 ||
+        (p.color || []).some((c) => selectedColors.includes(c))) &&
       (!priceRange || (p.price >= priceRange[0] && p.price <= priceRange[1])),
   );
 
@@ -179,6 +200,12 @@ export default function ProductList() {
               selected={selectedTypes}
               onToggle={toggleType}
               onClear={() => setSelectedTypes([])}
+            />
+            <Colors
+              types={availableColors}
+              selected={selectedColors}
+              onToggle={toggleColor}
+              onClear={() => setSelectedColors([])}
             />
           </aside>
 
