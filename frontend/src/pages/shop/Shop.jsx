@@ -44,7 +44,7 @@ export default function Shop() {
                   {product.title}
                 </h2>
                 <p className="mt-1 font-barlow text-sm lowercase text-neutral-600">
-                  ${product.price.toFixed(2)}
+                    R {product.price.toFixed(2)}
                 </p>
               </div>
             </li>

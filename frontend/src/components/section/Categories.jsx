@@ -2,26 +2,37 @@ import { Link } from "react-router-dom";
 import Heading from "./headings/Heading";
 import ArrowIcon from "../common/ArrowIcon";
 import TeeIcon from "../common/TeeIcon";
-import BagIcon from "../common/BagIcon";
 import TeddyIcon from "../common/TeddyIcon";
 import MugIcon from "../common/MugIcon";
+import JeansIcon from "../common/JeansIcon";
+import ShirtIcon from "../common/ShirtIcon";
+import ShortsIcon from "../common/ShortsIcon";
+import HoodieIcon from "../common/HoodieIcon";
+import DressIcon from "../common/DressIcon";
+import TopIcon from "../common/TopIcon";
+import TrackPantsIcon from "../common/TrackPantsIcon";
+import TrousersIcon from "../common/TrousersIcon";
+import ShoesIcon from "../common/ShoesIcon";
+import AccessoriesIcon from "../common/AccessoriesIcon";
+import LoungewearIcon from "../common/LoungewearIcon";
+import JacketIcon from "../common/JacketIcon";
 import catalog from "../../data/categories.json";
 
 /* maybe find images for these later  */
 const tileByCode = {
   TEES: { tile: "bg-[#E8EDF3]", Icon: TeeIcon },
-  JEANS: { tile: "bg-[#EFE9DC]", Icon: TeeIcon },
-  SHIRTS: { tile: "bg-[#FBE4E9]", Icon: TeeIcon },
-  SHORTS: { tile: "bg-[#E4E9DF]", Icon: TeeIcon },
-  HOODIES: { tile: "bg-[#E8EDF3]", Icon: TeeIcon },
-  DRESSES: { tile: "bg-[#FBE4E9]", Icon: BagIcon },
-  TOPS: { tile: "bg-[#EFE9DC]", Icon: BagIcon },
-  TRACKPANTS: { tile: "bg-[#E4E9DF]", Icon: TeeIcon },
-  TROUSERS: { tile: "bg-[#E8EDF3]", Icon: TeeIcon },
-  SHOES: { tile: "bg-[#FBE4E9]", Icon: BagIcon },
-  ACCESSORIES: { tile: "bg-[#EFE9DC]", Icon: BagIcon },
-  LOUNGEWEAR: { tile: "bg-[#E4E9DF]", Icon: TeeIcon },
-  JACKETS: { tile: "bg-[#E8EDF3]", Icon: TeeIcon },
+  JEANS: { tile: "bg-[#EFE9DC]", Icon: JeansIcon },
+  SHIRTS: { tile: "bg-[#FBE4E9]", Icon: ShirtIcon },
+  SHORTS: { tile: "bg-[#E4E9DF]", Icon: ShortsIcon },
+  HOODIES: { tile: "bg-[#E8EDF3]", Icon: HoodieIcon },
+  DRESSES: { tile: "bg-[#FBE4E9]", Icon: DressIcon },
+  TOPS: { tile: "bg-[#EFE9DC]", Icon: TopIcon },
+  TRACKPANTS: { tile: "bg-[#E4E9DF]", Icon: TrackPantsIcon },
+  TROUSERS: { tile: "bg-[#E8EDF3]", Icon: TrousersIcon },
+  SHOES: { tile: "bg-[#FBE4E9]", Icon: ShoesIcon },
+  ACCESSORIES: { tile: "bg-[#EFE9DC]", Icon: AccessoriesIcon },
+  LOUNGEWEAR: { tile: "bg-[#E4E9DF]", Icon: LoungewearIcon },
+  JACKETS: { tile: "bg-[#E8EDF3]", Icon: JacketIcon },
   HOME: { tile: "bg-[#E4E9DF]", Icon: MugIcon },
   KIDSSETS: { tile: "bg-[#EFE9DC]", Icon: TeddyIcon },
 };

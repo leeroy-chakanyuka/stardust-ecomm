@@ -19,7 +19,7 @@ function findCategory(slug) {
 
 const FIELDS = {
   men: "men",
-  mens: a"men",
+  mens: "men",
   women: "women",
   womens: "women",
   kids: "kids",
@@ -82,8 +82,8 @@ export default function ProductList() {
                   <h2 className="mt-1 font-barlow text-base font-semibold lowercase text-neutral-800">
                     {product.title}
                   </h2>
-                  <p className="mt-1 font-barlow text-sm lowercase text-neutral-600">
-                    ${product.price.toFixed(2)}
+                  <p className="mt-1 font-barlow text-sm uppercase text-neutral-600">
+                    R {product.price.toFixed(2)}
                   </p>
                 </div>
               </li>
