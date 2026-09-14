@@ -121,18 +121,20 @@ export default function ProductList() {
     <>
       <Navigation />
 
-      <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-8">
-        <div className="flex flex-col gap-6 lg:flex-row lg:items-start">
-          <aside className="w-full shrink-0 rounded-xl border border-neutral-200 bg-white p-4 lg:sticky lg:top-24 lg:w-64">
-            <p className="font-barlow text-xs font-semibold uppercase tracking-[0.2em] text-neutral-400">
-              {category?.code ?? "stardust shop"}
-            </p>
-            <h1 className="mt-2 font-display text-3xl font-semibold lowercase tracking-tight text-neutral-800">
-              {title}
-            </h1>
-            <p className="mt-3 font-barlow text-sm lowercase text-neutral-600">
-              {description}
-            </p>
+      <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-6 lg:px-8 xl:max-w-[1400px] 2xl:max-w-[1600px]">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-start xl:gap-6">
+          <aside className="w-full shrink-0 rounded-xl border border-neutral-200 bg-white p-2 [scrollbar-width:none] sm:p-3 lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] lg:w-60 lg:overflow-y-auto xl:w-72 2xl:w-80 [&::-webkit-scrollbar]:hidden">
+            <div className="lg:sticky lg:top-0 z-10 -mx-2 bg-white px-2 pb-3 pt-2 sm:-mx-3 sm:px-3 sm:pt-3">
+              <p className="font-barlow text-xs font-semibold uppercase tracking-[0.2em] text-neutral-400">
+                {category?.code ?? "stardust shop"}
+              </p>
+              <h1 className="mt-2 font-display text-3xl font-semibold lowercase tracking-tight text-neutral-800">
+                {title}
+              </h1>
+              <p className="mt-3 font-barlow text-sm lowercase text-neutral-600">
+                {description}
+              </p>
+            </div>
             <Categories
               types={availableTypes}
               selected={selectedTypes}
@@ -147,7 +149,7 @@ export default function ProductList() {
                 no products here yet.
               </p>
             ) : (
-              <ul className="grid list-none grid-cols-2 gap-3 p-0 sm:grid-cols-3 lg:grid-cols-4">
+              <ul className="grid list-none grid-cols-2 gap-2.5 p-0 sm:grid-cols-3 sm:gap-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
                 {products.map((product) => (
                   <li
                     key={product.id}

@@ -5,7 +5,7 @@ import WishlistIcon from "../common/WishlistIcon";
 
 function Navigation() {
   return (
-    <nav className="flex items-center gap-8 py-6 px-8 justify-between">
+    <nav className="sticky top-0 z-50 flex items-center justify-between gap-8 border-b border-neutral-200 bg-white/95 px-8 py-6 backdrop-blur">
       <div className="flex items-center gap-6">
         {/* logo would go here, for now we'll put an h2*/}
         <Link

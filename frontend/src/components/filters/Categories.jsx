@@ -1,10 +1,20 @@
+import { useState } from "react";
+
 export default function Categories({
   types = [],
   selected = [],
   onToggle,
   onClear,
 }) {
+  const [expanded, setExpanded] = useState(false);
+
   if (!types.length) return null;
+
+  const sortedByCount = [...types].sort(
+    (a, b) => (b.count ?? 0) - (a.count ?? 0),
+  );
+  const visibleTypes = expanded ? sortedByCount : sortedByCount.slice(0, 5);
+  const hiddenCount = types.length - visibleTypes.length;
 
   return (
     <div className="mt-5 border-t border-neutral-200 pt-4">
@@ -24,7 +34,7 @@ export default function Categories({
       </div>
 
       <ul className="mt-3 list-none space-y-2 p-0">
-        {types.map((type) => {
+        {visibleTypes.map((type) => {
           const checked = selected.includes(type.id);
           return (
             <li key={type.id}>
@@ -47,6 +57,25 @@ export default function Categories({
           );
         })}
       </ul>
+
+      {hiddenCount > 0 && (
+        <button
+          type="button"
+          onClick={() => setExpanded(true)}
+          className="mt-3 font-barlow text-xs font-semibold lowercase tracking-wider text-neutral-500 transition-colors hover:text-neutral-900"
+        >
+          more ({hiddenCount})
+        </button>
+      )}
+      {expanded && types.length > 5 && (
+        <button
+          type="button"
+          onClick={() => setExpanded(false)}
+          className="mt-3 font-barlow text-xs font-semibold lowercase tracking-wider text-neutral-500 transition-colors hover:text-neutral-900"
+        >
+          show less
+        </button>
+      )}
     </div>
   );
 }

@@ -1,61 +1,119 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Navigation from "../../components/navigation/Navigation";
 import Footer from "../../components/footer/Footer";
 import catalog from "../../data/categories.json";
+import Categories from "../../components/filters/Categories";
 
 export default function Shop() {
-  const products = catalog.products;
+  const allProducts = catalog.products;
+
+  const [selectedTypes, setSelectedTypes] = useState([]);
+
+  const toggleType = (id) =>
+    setSelectedTypes((prev) =>
+      prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id],
+    );
+
+  /* map every type id to its name, so shop-all can list types */
+  const typeNameById = new Map();
+  catalog.categories.forEach((c) => {
+    c.types.forEach((t) => {
+      if (!typeNameById.has(t.id)) typeNameById.set(t.id, t.name);
+    });
+  });
+
+  /* aggregate whatever types appear in the full list */
+  const counts = {};
+  allProducts.forEach((p) => {
+    counts[p.type_id] = (counts[p.type_id] ?? 0) + 1;
+  });
+  const availableTypes = Object.entries(counts)
+    .map(([id, count]) => ({
+      id: Number(id),
+      name: typeNameById.get(Number(id)) ?? `type ${id}`,
+      count,
+    }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  /* apply the checked type filters, if any */
+  const products =
+    selectedTypes.length > 0
+      ? allProducts.filter((p) => selectedTypes.includes(p.type_id))
+      : allProducts;
 
   return (
     <>
       <Navigation />
-      <main className="mx-auto w-full max-w-6xl flex-1 px-8 py-16">
-        <p className="font-barlow text-xs font-semibold uppercase tracking-[0.2em] text-neutral-400">
-          stardust shop
-        </p>
-        <h1 className="mt-2 font-display text-3xl font-semibold lowercase tracking-tight text-neutral-800">
-          shop all
-        </h1>
-        <p className="mt-3 font-barlow text-sm lowercase text-neutral-600">
-          {products.length} products across all categories
-        </p>
-        <ul className="mt-8 grid list-none grid-cols-2 gap-4 p-0 lg:grid-cols-4">
-          {products.map((product) => (
-            <li
-              key={product.id}
-              className="overflow-hidden rounded-xl border border-neutral-200 bg-white"
+
+      <main className="mx-auto w-full max-w-7xl flex-1 px-4 py-6 sm:px-6 lg:px-8 xl:max-w-[1400px] 2xl:max-w-[1600px]">
+        <div className="flex flex-col gap-4 lg:flex-row lg:items-start xl:gap-6">
+          <aside className="w-full shrink-0 rounded-xl border border-neutral-200 bg-white p-2 [scrollbar-width:none] sm:p-3 lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] lg:w-60 lg:overflow-y-auto xl:w-72 2xl:w-80 [&::-webkit-scrollbar]:hidden">
+            <div className="lg:sticky lg:top-0 z-10 -mx-2 bg-white px-2 pb-3 pt-2 sm:-mx-3 sm:px-3 sm:pt-3">
+              <p className="font-barlow text-xs font-semibold uppercase tracking-[0.2em] text-neutral-400">
+                stardust shop
+              </p>
+              <h1 className="mt-2 font-display text-3xl font-semibold lowercase tracking-tight text-neutral-800">
+                shop all
+              </h1>
+              <p className="mt-3 font-barlow text-sm lowercase text-neutral-600">
+                {products.length} products across all categories
+              </p>
+            </div>
+            <Categories
+              types={availableTypes}
+              selected={selectedTypes}
+              onToggle={toggleType}
+              onClear={() => setSelectedTypes([])}
+            />
+          </aside>
+
+          <div className="min-w-0 flex-1">
+            {products.length === 0 ? (
+              <p className="font-barlow text-sm lowercase text-neutral-600">
+                no products here yet.
+              </p>
+            ) : (
+              <ul className="grid list-none grid-cols-2 gap-2.5 p-0 sm:grid-cols-3 sm:gap-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+                {products.map((product) => (
+                  <li
+                    key={product.id}
+                    className="overflow-hidden rounded-lg border border-neutral-200 bg-white"
+                  >
+                    <img
+                      src={product.thumbnail}
+                      alt={product.title}
+                      loading="lazy"
+                      onError={(e) => {
+                        const t = e.currentTarget;
+                        t.onerror = null;
+                        t.src = `https://picsum.photos/seed/stardust-${product.id}/600/750`;
+                      }}
+                      className="aspect-[4/5] w-full object-cover"
+                    />
+                    <div className="p-3">
+                      <p className="font-barlow text-[11px] font-semibold uppercase tracking-[0.15em] text-neutral-400">
+                        {product.brand}
+                      </p>
+                      <h2 className="mt-0.5 truncate font-barlow text-sm font-semibold lowercase text-neutral-800">
+                        {product.title}
+                      </h2>
+                      <p className="mt-0.5 font-barlow text-xs uppercase text-neutral-600">
+                        R {product.price.toFixed(2)}
+                      </p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            )}
+            <Link
+              to="/"
+              className="mt-8 inline-block font-barlow text-base font-semibold lowercase tracking-wider text-rose-500 transition-colors hover:text-rose-600"
             >
-                <img
-                  src={product.thumbnail}
-                  alt={product.title}
-                  loading="lazy"
-                  onError={(e) => {
-                    const t = e.currentTarget;
-                    t.onerror = null;
-                    t.src = `https://picsum.photos/seed/stardust-${product.id}/600/750`;
-                  }}
-                  className="aspect-[4/5] w-full object-cover"
-                />
-              <div className="p-4">
-                <p className="font-barlow text-xs font-semibold uppercase tracking-[0.2em] text-neutral-400">
-                  {product.brand}
-                </p>
-                <h2 className="mt-1 font-barlow text-base font-semibold lowercase text-neutral-800">
-                  {product.title}
-                </h2>
-                <p className="mt-1 font-barlow text-sm lowercase text-neutral-600">
-                    R {product.price.toFixed(2)}
-                </p>
-              </div>
-            </li>
-          ))}
-        </ul>
-        <Link
-          to="/"
-          className="mt-8 inline-block font-barlow text-base font-semibold lowercase tracking-wider text-rose-500 transition-colors hover:text-rose-600"
-        >
-          back home
-        </Link>
+              back home
+            </Link>
+          </div>
+        </div>
       </main>
       <Footer />
     </>
