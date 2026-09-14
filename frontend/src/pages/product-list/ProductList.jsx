@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import Navigation from "../../components/navigation/Navigation";
 import Footer from "../../components/footer/Footer";
 import catalog from "../../data/categories.json";
+import { GENDERS, getTypeLabel } from "../../data/taxonomy";
 import Categories from "../../components/filters/Categories";
 
 /* make the recieved url parameter lowercase then look for a category match in recieved data it could from clicking category
@@ -41,6 +42,7 @@ const FIELDS = {
   womens: "women",
   kids: "kids",
   kid: "kids",
+  unisex: "unisex",
 };
 
 export default function ProductList() {
@@ -51,10 +53,12 @@ export default function ProductList() {
   const gender = !category ? FIELDS[slug?.toLowerCase()] : undefined;
 
   const [selectedTypes, setSelectedTypes] = useState([]);
+  const [selectedGenders, setSelectedGenders] = useState([]);
 
   /* if we change the category ie men to women, reset the filters */
   useEffect(() => {
     setSelectedTypes([]);
+    setSelectedGenders([]);
   }, [slug]);
 
   /* category exists, so just return products filtered by this category id */
@@ -69,22 +73,36 @@ export default function ProductList() {
       prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id],
     );
 
-  /* map every type id to its name, so shop-all can list types */
+  const toggleGender = (id) =>
+    setSelectedGenders((prev) =>
+      prev.includes(id) ? prev.filter((g) => g !== id) : [...prev, id],
+    );
+
+  /* map every type id to its display name, so shop-all can list types */
   const typeNameById = new Map();
   catalog.categories.forEach((c) => {
     c.types.forEach((t) => {
-      if (!typeNameById.has(t.id)) typeNameById.set(t.id, t.name);
+      if (!typeNameById.has(t.id))
+        typeNameById.set(t.id, getTypeLabel(t.id, t.name));
     });
   });
+
+  /* gender options present in this list, in men/women/kids/unisex order */
+  const availableGenders = GENDERS.map((g) => ({
+    ...g,
+    count: allProducts.filter((p) => p.gender === g.id).length,
+  })).filter((g) => g.count > 0);
 
   /* pretty simple, just create a map for the types in the product array */
   let availableTypes;
   if (category?.types?.length) {
-    availableTypes = category.types.map((t) => ({
-      id: t.id,
-      name: t.name,
-      count: allProducts.filter((p) => p.type_id === t.id).length,
-    }));
+    availableTypes = category.types
+      .map((t) => ({
+        id: t.id,
+        name: getTypeLabel(t.id, t.name),
+        count: allProducts.filter((p) => p.type_id === t.id).length,
+      }))
+      .filter((t) => t.count > 0);
   } else {
     const counts = {};
     allProducts.forEach((p) => {
@@ -99,11 +117,12 @@ export default function ProductList() {
       .sort((a, b) => a.name.localeCompare(b.name));
   }
 
-  /* apply the checked type filters, if any */
-  const products =
-    selectedTypes.length > 0
-      ? allProducts.filter((p) => selectedTypes.includes(p.type_id))
-      : allProducts;
+  /* apply the checked type + gender filters, if any */
+  const products = allProducts.filter(
+    (p) =>
+      (selectedTypes.length === 0 || selectedTypes.includes(p.type_id)) &&
+      (selectedGenders.length === 0 || selectedGenders.includes(p.gender)),
+  );
 
   let title;
   /* a break from ternaries */
@@ -136,6 +155,14 @@ export default function ProductList() {
               </p>
             </div>
             <Categories
+              title="gender"
+              types={availableGenders}
+              selected={selectedGenders}
+              onToggle={toggleGender}
+              onClear={() => setSelectedGenders([])}
+            />
+            <Categories
+              title="style"
               types={availableTypes}
               selected={selectedTypes}
               onToggle={toggleType}

@@ -3,25 +3,39 @@ import { Link } from "react-router-dom";
 import Navigation from "../../components/navigation/Navigation";
 import Footer from "../../components/footer/Footer";
 import catalog from "../../data/categories.json";
+import { GENDERS, getTypeLabel } from "../../data/taxonomy";
 import Categories from "../../components/filters/Categories";
 
 export default function Shop() {
   const allProducts = catalog.products;
 
   const [selectedTypes, setSelectedTypes] = useState([]);
+  const [selectedGenders, setSelectedGenders] = useState([]);
 
   const toggleType = (id) =>
     setSelectedTypes((prev) =>
       prev.includes(id) ? prev.filter((t) => t !== id) : [...prev, id],
     );
 
-  /* map every type id to its name, so shop-all can list types */
+  const toggleGender = (id) =>
+    setSelectedGenders((prev) =>
+      prev.includes(id) ? prev.filter((g) => g !== id) : [...prev, id],
+    );
+
+  /* map every type id to its display name, so shop-all can list types */
   const typeNameById = new Map();
   catalog.categories.forEach((c) => {
     c.types.forEach((t) => {
-      if (!typeNameById.has(t.id)) typeNameById.set(t.id, t.name);
+      if (!typeNameById.has(t.id))
+        typeNameById.set(t.id, getTypeLabel(t.id, t.name));
     });
   });
+
+  /* gender options present in the full list, in men/women/kids/unisex order */
+  const availableGenders = GENDERS.map((g) => ({
+    ...g,
+    count: allProducts.filter((p) => p.gender === g.id).length,
+  })).filter((g) => g.count > 0);
 
   /* aggregate whatever types appear in the full list */
   const counts = {};
@@ -36,11 +50,12 @@ export default function Shop() {
     }))
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  /* apply the checked type filters, if any */
-  const products =
-    selectedTypes.length > 0
-      ? allProducts.filter((p) => selectedTypes.includes(p.type_id))
-      : allProducts;
+  /* apply the checked type + gender filters, if any */
+  const products = allProducts.filter(
+    (p) =>
+      (selectedTypes.length === 0 || selectedTypes.includes(p.type_id)) &&
+      (selectedGenders.length === 0 || selectedGenders.includes(p.gender)),
+  );
 
   return (
     <>
@@ -61,6 +76,14 @@ export default function Shop() {
               </p>
             </div>
             <Categories
+              title="gender"
+              types={availableGenders}
+              selected={selectedGenders}
+              onToggle={toggleGender}
+              onClear={() => setSelectedGenders([])}
+            />
+            <Categories
+              title="style"
               types={availableTypes}
               selected={selectedTypes}
               onToggle={toggleType}

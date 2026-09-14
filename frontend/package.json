@@ -16,6 +16,7 @@
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-multi-carousel": "^2.8.6",
+    "react-range-slider-input": "^3.3.5",
     "react-router-dom": "^7.18.3",
     "tailwindcss": "^4.3.3"
   },

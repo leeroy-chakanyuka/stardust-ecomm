@@ -138,45 +138,29 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Beige",
+          "Black",
+          "Blue",
+          "Brown",
+          "Burgundy",
+          "Green",
+          "Grey",
+          "Maroon",
+          "Mint",
+          "Navy",
+          "Olive",
+          "Orange",
+          "Pink",
+          "Purple",
+          "Red",
+          "Teal",
+          "White",
+          "Yellow"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "S",
           "XL",
           "XXL"
         ]
@@ -208,45 +192,17 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Black",
+          "Blue",
+          "Charcoal",
+          "Grey",
+          "Navy",
+          "Peach"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "S",
           "XL",
           "XXL"
         ]
@@ -261,54 +217,34 @@
       "types": [
         {
           "id": 7,
-          "name": "Casual"
+          "name": "Casual shirts"
         },
         {
           "id": 8,
-          "name": "Formal"
+          "name": "Formal shirts"
         }
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Black",
+          "Blue",
+          "Brown",
+          "Green",
+          "Grey",
+          "Maroon",
+          "Navy",
+          "Orange",
+          "Peach",
+          "Pink",
+          "Purple",
+          "Red",
+          "White",
+          "Yellow"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "S",
           "XL",
           "XXL"
         ]
@@ -323,58 +259,40 @@
       "types": [
         {
           "id": 9,
-          "name": "Denim"
+          "name": "Denim shorts"
         },
         {
           "id": 10,
-          "name": "Chino"
+          "name": "Chino shorts"
         },
         {
           "id": 11,
-          "name": "Athletic"
+          "name": "Athletic shorts"
         }
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Beige",
+          "Black",
+          "Blue",
+          "Brown",
+          "Burgundy",
+          "Cream",
+          "Gold",
+          "Green",
+          "Grey",
+          "Navy",
+          "Olive",
+          "Orange",
+          "Pink",
+          "Teal",
+          "White",
+          "Yellow"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "S",
           "XL",
           "XXL"
         ]
@@ -398,45 +316,24 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Black",
+          "Blue",
+          "Burgundy",
+          "Green",
+          "Grey",
+          "Lavender",
+          "Navy",
+          "Olive",
+          "Orange",
+          "Pink",
+          "Red",
+          "White",
+          "Yellow"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "S",
           "XL",
           "XXL"
         ]
@@ -451,58 +348,42 @@
       "types": [
         {
           "id": 14,
-          "name": "Maxi"
+          "name": "Maxi dresses"
         },
         {
           "id": 15,
-          "name": "Midi"
+          "name": "Midi dresses"
         },
         {
           "id": 16,
-          "name": "Mini"
+          "name": "Mini dresses"
         }
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Black",
+          "Blue",
+          "Brown",
+          "Burgundy",
+          "Charcoal",
+          "Green",
+          "Grey",
+          "Lavender",
+          "Magenta",
+          "Maroon",
+          "Navy",
+          "Orange",
+          "Peach",
+          "Pink",
+          "Purple",
+          "Red",
+          "White",
+          "Yellow"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "S",
           "XL",
           "XXL"
         ]
@@ -530,45 +411,26 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Black",
+          "Blue",
+          "Brown",
+          "Burgundy",
+          "Cream",
+          "Green",
+          "Mustard",
+          "Navy",
+          "Orange",
+          "Pink",
+          "Red",
+          "Turquoise",
+          "White",
+          "Yellow"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "One Size",
+          "S",
           "XL",
           "XXL"
         ]
@@ -592,45 +454,18 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Black",
+          "Blue",
+          "Green",
+          "Grey",
+          "Navy",
+          "Red",
+          "White"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "S",
           "XL",
           "XXL"
         ]
@@ -645,7 +480,7 @@
       "types": [
         {
           "id": 22,
-          "name": "Chinos"
+          "name": "Chino trousers"
         },
         {
           "id": 23,
@@ -653,50 +488,26 @@
         },
         {
           "id": 24,
-          "name": "Formal"
+          "name": "Formal trousers"
         }
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Beige",
+          "Black",
+          "Blue",
+          "Brown",
+          "Charcoal",
+          "Green",
+          "Grey",
+          "Navy",
+          "Olive",
+          "White"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "S",
           "XL",
           "XXL"
         ]
@@ -715,7 +526,7 @@
         },
         {
           "id": 26,
-          "name": "Casual"
+          "name": "Casual shoes"
         },
         {
           "id": 27,
@@ -728,48 +539,30 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Beige",
+          "Black",
+          "Blue",
+          "Brown",
+          "Cream",
+          "Gold",
+          "Green",
+          "Grey",
+          "Navy",
+          "Orange",
+          "Peach",
+          "Pink",
+          "Purple",
+          "Red",
+          "Silver",
+          "White"
         ],
         "sizes": [
+          "UK 10",
+          "UK 11",
           "UK 6",
           "UK 7",
           "UK 8",
-          "UK 9",
-          "UK 10",
-          "UK 11"
+          "UK 9"
         ]
       }
     },
@@ -799,43 +592,25 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Black",
+          "Blue",
+          "Brown",
+          "Green",
+          "Grey",
+          "Maroon",
+          "Navy",
+          "Orange",
+          "Pink",
+          "Purple",
+          "Silver",
+          "White",
+          "Yellow"
         ],
         "sizes": [
-          "One Size"
+          "M",
+          "One Size",
+          "XL",
+          "XXL"
         ]
       }
     },
@@ -861,45 +636,25 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Beige",
+          "Black",
+          "Blue",
+          "Burgundy",
+          "Green",
+          "Grey",
+          "Maroon",
+          "Navy",
+          "Olive",
+          "Peach",
+          "Pink",
+          "Purple",
+          "White",
+          "Yellow"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "S",
           "XL",
           "XXL"
         ]
@@ -923,45 +678,19 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Black",
+          "Blue",
+          "Green",
+          "Navy",
+          "Olive",
+          "Red",
+          "Teal",
+          "Turquoise"
         ],
         "sizes": [
-          "S",
-          "M",
           "L",
+          "M",
+          "S",
           "XL",
           "XXL"
         ]
@@ -989,40 +718,25 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Beige",
+          "Black",
+          "Blue",
+          "Brown",
+          "Burgundy",
+          "Charcoal",
+          "Cream",
+          "Green",
+          "Grey",
+          "Lavender",
+          "Mustard",
+          "Navy",
+          "Orange",
+          "Peach",
+          "Pink",
+          "Purple",
+          "Red",
+          "White",
+          "Yellow"
         ],
         "sizes": [
           "One Size"
@@ -1043,40 +757,20 @@
       ],
       "meta_data": {
         "colors": [
-          "black",
-          "white",
-          "blue",
-          "navy",
-          "red",
-          "green",
-          "pink",
-          "purple",
-          "yellow",
-          "orange",
-          "grey",
-          "gray",
-          "brown",
-          "beige",
-          "maroon",
-          "mustard",
-          "olive",
-          "teal",
-          "turquoise",
-          "cream",
-          "ivory",
-          "charcoal",
-          "burgundy",
-          "lavender",
-          "peach",
-          "mint",
-          "coral",
-          "gold",
-          "silver",
-          "khaki",
-          "magenta",
-          "lime",
-          "indigo",
-          "violet"
+          "Beige",
+          "Black",
+          "Blue",
+          "Brown",
+          "Green",
+          "Grey",
+          "Maroon",
+          "Mustard",
+          "Navy",
+          "Peach",
+          "Pink",
+          "Red",
+          "White",
+          "Yellow"
         ],
         "sizes": [
           "2-4Y",
@@ -1180,7 +874,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/productimage/2019/12/12/1aab2a18-6774-4f83-b292-fe301755a3351576102551329-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 4
     },
@@ -1489,7 +1183,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/2308267/2018/1/29/11517216335231-Roadster-Men-Maroon-Printed-Round-Neck-T-shirt-5591517216335098-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 17
     },
@@ -1724,7 +1418,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/2215210/2018/1/22/11516616541193-Roadster-Men-Beige-Colourblocked-Round-Neck-T-shirt-8181516616541016-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 27
     },
@@ -1795,7 +1489,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/3314141/2018/5/19/e55c2244-8515-44d5-93da-d719f3f8d4551526706357637-Roadster-Men-Tshirts-6461526706356615-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 30
     },
@@ -1841,7 +1535,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/10984594/2020/4/6/7e7570b8-9ff1-448a-b8e1-f5fbadf232d51586163159057-Nautica-Men-Tshirts-2011586163156988-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 32
     },
@@ -2051,7 +1745,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/8023755/2019/2/28/3ccf7a01-9e78-409d-b357-70fffc8bfc251551339061011-Roadster-Men-Tshirts-7841551339059830-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 41
     },
@@ -2168,7 +1862,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928048/2023/4/28/03655502-a5c0-4fe1-8262-b18acee3fc3f1682629488435OkaneWomenRedTypographyPrintedT-shirt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 46
     },
@@ -2190,7 +1884,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22746652/2023/4/12/b5232ab3-6a74-444e-9c39-7b6c973dfba71681324179272Tshirts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 47
     },
@@ -2212,7 +1906,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21188150/2023/4/28/1f185dc1-2819-4768-a530-2ed1b5acb8d51682657447537-Mast--Harbour-Women-Tshirts-2401682657447120-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 48
     },
@@ -2234,7 +1928,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21971156/2023/5/2/038dbefe-cd60-443a-a32c-f0905c7dd49c1682996602669-The-Roadster-Lifestyle-Co-Women-Extended-Sleeves-T-shirt-505-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 49
     },
@@ -2257,7 +1951,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22954262/2023/4/29/bd15390b-550d-409e-92f7-ec34834909401682742000291StyliWomenGreenTypographyPrintedT-shirt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 50
     },
@@ -2280,7 +1974,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22966962/2023/5/1/4cab120c-d230-45e8-b93f-9e1d4dc0b86e1682909499248T-SHIRTTRUCKWomenBlackTypographyPrintedAppliqueT-shirt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 51
     },
@@ -2301,7 +1995,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916198/2023/4/27/98ebc1dd-f043-479c-8969-3009e77bcb891682590253999Tshirts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 52
     },
@@ -2323,8 +2017,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22937638/2023/4/28/6ec2ef10-343d-456a-afa0-c45a141ec6051682687303763PrettyCatUnderwiredPolkaPrintFullCoverageT-ShirtBra1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 53
     },
     {
@@ -2464,7 +2158,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/14112836/2021/7/1/e40b4b75-45e0-4503-935f-dd6ccaf846fd1625122798222-US-Polo-Assn-Men-White-Cotton-Solid-Round-Neck-Lounge-T-shir-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 59
     },
@@ -2605,7 +2299,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18666856/2023/1/18/824a0a2b-8353-4478-a16f-fabc3f97f5be1674023583284-Reebok-Men-Tshirts-91674023582842-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 65
     },
@@ -2678,7 +2372,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/17137554/2022/2/11/badb659c-3a8c-4970-8e16-a0804f2afc5d1644579839757HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "kids",
       "id": 68
     },
@@ -2775,7 +2469,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/17132454/2022/2/22/23dc0b28-9ac1-4638-b3d4-b87da5f3e9cb1645542891622-HELLCAT-Boys-Navy-Blue--Green-Pack-Of-3-Printed-Bio-Finish-C-11.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "kids",
       "id": 72
     },
@@ -3142,7 +2836,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/1700831/2017/1/18/11484720388722-WROGN-Men-Blue-Printed-Round-Neck-T-Shirt-8811484720388490-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 88
     },
@@ -3210,7 +2904,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22953654/2023/4/29/071594a4-6fd2-4e1b-ba1d-a2477092caa61682760652867ELLISWomenBlueSmartStraightFitLowDistressJeans1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 91
     },
@@ -3231,7 +2925,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22688658/2023/4/27/87157135-8e6e-4b0b-87ed-1a1de4b02cdd1682590304474-Urban-Revivo-Women-Straight-Fit-High-Rise-Light-Fade-Jeans-1-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 92
     },
@@ -3254,7 +2948,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22960134/2023/4/29/4ed89aeb-809e-4209-b30d-a8c3548f6a451682762238547urSenseWomenBlueBootcutStretchableJeans1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 93
     },
@@ -3278,7 +2972,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22914144/2023/4/27/6c560331-433a-4bfb-a766-49b381c103a01682574056850VeroModaWomenBlueSkinnyFitHigh-RiseLowDistressLightFadeStret1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 94
     },
@@ -3351,7 +3045,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18074866/2022/9/22/be6d12ca-d8e3-4b16-b96b-683ed3dd616a1663827493370-Levis-Men-Blue-512-Tapered-Fit-Heavy-Fade-Stretchable-Jeans--1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 97
     },
@@ -3655,7 +3349,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22243922/2023/3/6/4f3a586a-06e3-47ab-b8b3-b3374be92de41678105883987plusSMenBlackComfortStretchableJeans1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 110
     },
@@ -3741,7 +3435,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22688454/2023/4/27/344896df-81b2-43ef-a9fa-49c23557eba71682590115971-Urban-Revivo-Women-Tapered-Fit-High-Rise-Stretchable-Jeans-5-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 114
     },
@@ -3763,7 +3457,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22478466/2023/4/19/a93ca4e1-4c2f-4db6-a78b-ba711d2605a61681887740502-Boohoo-Women-Jeans-71681887740168-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 115
     },
@@ -3787,7 +3481,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22953648/2023/4/29/3b29124b-106f-4864-803d-090ba99fed881682758247538ELLISWomenGreySmartMildlyDistressedHeavyFadeJeans1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 116
     },
@@ -3831,7 +3525,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21984664/2023/2/15/5ae31623-2ac0-410e-8b89-536525b0558b167644591023890sBoyfriendJeans1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 118
     },
@@ -3916,7 +3610,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21430866/2023/1/5/d3b2430f-c7f1-4cdf-8e0c-c18196b7bd8b1672928147896LooseJeans1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 122
     },
@@ -3986,7 +3680,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/1619850/2016/12/13/11481627592284-Roadster-Men-Grey-Jogger-Fit-Low-Rise-Clean-Look-Jeans-9251481627591995-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 125
     },
@@ -4033,7 +3727,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/2425786/2018/3/22/11521710079400-Roadster-Men-Black-Skinny-Fit-Mid-Rise-Clean-Look-Stretchable-Jeans-1011521710079148-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 127
     },
@@ -4247,7 +3941,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22243916/2023/3/6/58734e03-eaa4-40e6-95a6-feae159bd3601678107299753plusSMenBlackComfortJoggerStretchableJeans1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 136
     },
@@ -4315,7 +4009,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22953666/2023/4/29/65a1a47b-f8e0-4fa1-84b7-d1eac4c1824c1682761182399ELLISWomenCharcoalSmartJeans1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 139
     },
@@ -4338,7 +4032,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22940004/2023/4/28/8ab4b382-adc2-4d10-8b1f-f2f0ece972181682677260739AlbionWomenPeach-ColouredComfortRelaxedFitHigh-RiseLowDistre1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 140
     },
@@ -4382,7 +4076,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21914634/2023/2/9/916e7388-5ad1-4f09-948d-8cfb08813e151675951192413K5094High-RiseMiniFlaredJeans1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 142
     },
@@ -4424,7 +4118,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21914680/2023/2/9/466005a9-1707-4767-a334-f0f1dbd31b9c1675954768183K5031High-RiseWideLegJeans1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 144
     },
@@ -4468,7 +4162,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/19759090/2023/2/8/e467280a-79b2-4761-87c5-2f4ed6bb987a1675836195894-Roadster-Women-Jeans-9251675836195349-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "women",
       "id": 146
     },
@@ -4512,7 +4206,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21914642/2023/2/9/6a716ab6-c3d6-4ee0-a6e1-e913bf8138d21675956386272K4014High-RiseSkinnyJeans1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 148
     },
@@ -4771,7 +4465,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18973854/2022/9/22/7989f667-e1e5-4a8c-9632-08e21483b1df1663844836828LevisMenBlue65504SkinnyStraightFitMidRiseLightFadeStretchabl1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 159
     },
@@ -4817,8 +4511,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22946300/2023/4/28/0ac64e98-b125-499a-82e1-63e70cc5ed3a1682698366434WoolTreesWomenNavyBlueOpaqueFormalShirt1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 161
     },
     {
@@ -4982,8 +4676,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22767580/2023/4/14/16d2b2e6-dc60-4fd5-af83-cc6ac586c0151681425437342SztoriPlussizeCasualshirt1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 168
     },
     {
@@ -5051,7 +4745,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21291622/2023/4/27/ab4fcab5-3ce0-4fef-b915-6413345871831682585951982-4WRD-by-Dressberry-Women-Shirts-3521682585951603-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 171
     },
@@ -5119,7 +4813,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22000412/2023/2/16/1508f7df-efb4-4008-bd50-f4a7bf2a3a001676546590935DlanxaWomenPinkSlimFitFormalShirt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 174
     },
@@ -5234,7 +4928,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21953800/2023/2/13/a07b4b79-1fcb-4f04-aa22-fd27bb9e61051676284555083plusSMenRedTartanChecksCheckedCasualShirt1.jpg"
       ],
       "rating": 4.8,
-      "gender": "unisex",
+      "gender": "women",
       "id": 179
     },
     {
@@ -5367,8 +5061,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22960316/2023/4/29/daeb883b-8071-420b-983f-7e39b87fdba21682774206873KALINIWomenBlueOpaqueFormalShirt1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 185
     },
     {
@@ -5392,7 +5086,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21917866/2023/2/10/36e19149-bf33-4359-9c29-1523a0883eda1676006119328IndietogaWomenBlueClassicCasualShirt1.jpg"
       ],
       "rating": 4.1,
-      "gender": "unisex",
+      "gender": "women",
       "id": 186
     },
     {
@@ -5413,8 +5107,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21972246/2023/2/14/d8cdadc0-1a6e-4fcb-957f-e2d06e75ec361676372510559Shirts1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 187
     },
     {
@@ -5437,7 +5131,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/productimage/2019/10/30/6393ed72-a7c6-4c2f-b8f2-a76468bdaa901572433904574-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 188
     },
@@ -5481,7 +5175,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22049600/2023/4/12/e43edbe2-3b2b-4554-a250-45fd04e4774e1681284949393-Sztori-Men-Shirts-7261681284948712-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 190
     },
@@ -5593,7 +5287,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22926472/2023/4/28/97ac3191-7805-4ce1-8745-c52157562f371682628648201FundayFashionWomenMaroonOpaqueCasualShirt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 195
     },
@@ -5616,7 +5310,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22969064/2023/5/2/352b147b-7c30-40ff-975f-4b6eccf6f7501682994407096JUNEHARRYWomenGreenComfortOpaqueSemiformalShirt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 196
     },
@@ -5638,7 +5332,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18937680/2023/2/10/7a7a12ec-6c85-4365-bb61-b0a23831e3691676019614455-her-by-invictus-Women-Shirts-5441676019613489-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "women",
       "id": 197
     },
@@ -5661,8 +5355,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21951844/2023/2/13/e7ec067d-136a-43e1-8184-9458681191db1676276119834CrimsouneClubWomenGreenComfortPrintedCasualShirt1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "men",
       "id": 198
     },
     {
@@ -5682,8 +5376,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22646628/2023/4/4/27e777b1-140f-448a-8060-5a5a9b25c22e1680627398363Shirts1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 199
     },
     {
@@ -5706,8 +5400,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22770960/2023/4/14/3607aa54-251d-4c2a-990a-535d4c8ffab81681460158692SztoriMenBlackClassicOpaquePrintedCasualShirt1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 200
     },
     {
@@ -5728,8 +5422,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22767582/2023/4/14/92f3140b-26d2-4b29-bad2-050d84cd6fea1681439096111SztoriPlussizeCasualshirt1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 201
     },
     {
@@ -5752,7 +5446,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/16706442/2022/1/6/f293d062-800c-4dac-9c22-d43f2c176e4a1641466256277plusSMenBlackCasualShirt1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 202
     },
@@ -5774,8 +5468,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22646630/2023/4/4/6fa1f7c6-ddf5-4f6a-98f9-14bf552cdcac1680623641397Shirts1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 203
     },
     {
@@ -5796,7 +5490,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22049722/2023/4/12/c186e7b1-8476-407d-8ce4-01a59160c79a1681283767807-Sztori-Men-Shirts-1661681283767151-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 204
     },
@@ -5818,7 +5512,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22049726/2023/4/12/4a088f2f-4351-402e-bc7a-dc300f39bc191681285084856-Sztori-Men-Shirts-1511681285084300-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 205
     },
@@ -5839,7 +5533,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22049646/2023/3/27/76308212-1f77-4cf8-82df-9374513635941679895747009-Sztori-Men-Shirts-9911679895746318-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 206
     },
@@ -5884,8 +5578,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21968958/2023/2/14/5860c861-657b-4410-b3c3-9bda7b2cc5b01676371720681Shirts1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "men",
       "id": 208
     },
     {
@@ -5953,7 +5647,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22959014/2023/4/29/97cde5ef-3d34-4bd0-805d-c9765c99aadc1682763243962BRINNSWomenTealShorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 211
     },
@@ -5977,7 +5671,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22945730/2023/4/29/1d5541bb-237f-4c71-8ac5-aa8e3634f9b71682750621163JinfoWomenBeigeYogaSportsShorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 212
     },
@@ -6000,7 +5694,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22945734/2023/4/28/8bffe652-7cb9-4f82-b35c-1c2aad5262cb1682691374304JinfoWomenBeigeColourblockedYogaSportsShorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 213
     },
@@ -6023,7 +5717,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22889234/2023/4/27/7607d7f8-97cc-4d57-95a3-3351f00e126c168253941127618INCHSHORTNECKLACECHAINFORGIRLSWOMEN1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 214
     },
@@ -6044,7 +5738,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22846088/2023/4/21/d34efd10-510b-4bab-8eb5-d26f96fee20d1682059952992Briefs1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 215
     },
@@ -6067,7 +5761,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22951856/2023/4/29/2b861d79-6a67-4c01-8b93-092bed5155fd1682743897418BraluxWomenBlackSkinnyFitLow-RiseCyclingSportsShorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 216
     },
@@ -6091,7 +5785,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22964808/2023/4/29/cd4f65ff-9672-413b-b049-95c98c8659901682777671939ApraaParmaWomenBeigeSkinnyFitCyclingSportsShortswithe-DryTec1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 217
     },
@@ -6113,7 +5807,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916586/2023/4/27/5ec8d463-4d3f-47e1-9841-d9d3dc967dcc1682582867993Briefs1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 218
     },
@@ -6135,7 +5829,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22947298/2023/4/28/f3845e8c-e4e2-4ea9-9624-e4e0ecf5f0801682701341232PrintedLoungewearKnitshortswithsidepockets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 219
     },
@@ -6158,7 +5852,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892158/2023/4/25/6bd08781-7ccd-4d4e-a696-270819046f001682428782276SweetDreamsWomenSolidShorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 220
     },
@@ -6348,7 +6042,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22190732/2023/3/2/0099a486-2810-40d8-bbd9-b18d52788d9a1677757236111Swimwear7.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 228
     },
@@ -6373,7 +6067,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/productimage/2020/11/23/cba4a05e-2ea6-4870-87a3-f2bca162be6d1606117767169-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "women",
       "id": 229
     },
@@ -6395,8 +6089,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22639150/2023/4/4/47167b65-425a-4d07-b34d-85de81557fd41680594329260SolidPaddedSwimmingDressWithShorts1.jpg"
       ],
-      "rating": 3.0,
-      "gender": "unisex",
+      "rating": 3,
+      "gender": "women",
       "id": 230
     },
     {
@@ -6419,7 +6113,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22963876/2023/4/29/3b8e9e09-dff0-44f1-899d-fbbcbfe6b6291682777620278LebamiWomenBeigeSkinnyFitCyclingHotPantswithe-DryTechnologyT1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 231
     },
@@ -6443,7 +6137,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22964806/2023/4/29/3250fdef-ef12-427f-bf6c-ede82cabaa831682776265650ApraaParmaWomenBeigeSkinnyFitCyclingSportsShortswithe-DryTec1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 232
     },
@@ -6466,7 +6160,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22963878/2023/4/29/d225f239-00e9-434f-8ac8-e3e031da6ab71682774258119LebamiWomenBeigeSkinnyFitCyclingSportsShortswithe-DryTechnol1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 233
     },
@@ -6487,7 +6181,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916628/2023/4/27/76031a35-655b-45ea-8245-33d6e71d40181682584166646Briefs1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 234
     },
@@ -6812,7 +6506,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22192308/2023/3/2/5d96314e-9f56-4593-a112-1e512663fc8116777429045733-packpull-onshorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "kids",
       "id": 248
     },
@@ -6945,7 +6639,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22959046/2023/4/29/9b37a3a8-ce29-4999-8b11-dab6b2ca37021682758118026BRINNSWomenCream-ColouredShorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 254
     },
@@ -6969,7 +6663,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22958976/2023/4/29/2af49013-082c-463a-a633-2e4e1e13c4831682758162696BRINNSWomenCream-ColouredShorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 255
     },
@@ -6990,7 +6684,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21893464/2023/2/8/d8f32082-99ef-4d57-9645-acc490f4bdcb1675850401654Pull-oncottonshorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 256
     },
@@ -7011,7 +6705,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21893442/2023/2/8/341f5544-cc85-489b-9f11-f17236d18ddc1675850468322Ribbedcyclingshorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 257
     },
@@ -7055,7 +6749,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22959050/2023/4/29/15acf7ab-1353-4144-baaa-196d5ea77f721682758126534BRINNSWomenPinkSportsShorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 259
     },
@@ -7076,7 +6770,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22938666/2023/4/28/849a2207-3614-417a-9edf-1a2c4f51f8be1682686640339Shorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 260
     },
@@ -7098,7 +6792,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22938668/2023/4/28/4ba82183-d109-4254-8f27-04d8fc720d091682672496418Shorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 261
     },
@@ -7123,7 +6817,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892176/2023/4/25/08d3506f-111a-4c1d-aa20-95e81fd515ce1682428784013SweetDreamsWomenPrintedShorts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 262
     },
@@ -7191,7 +6885,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21694852/2023/2/8/3badc46a-e89c-48b9-b4ad-3d6d9e1f4d441675838592572-HRX-by-Hrithik-Roshan-Men-Shorts-3861675838591814-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 265
     },
@@ -7328,7 +7022,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916150/2023/4/27/e2353474-9b48-4713-8c48-21c1bca9f6e91682590249652Sweatshirts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 271
     },
@@ -7349,7 +7043,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916148/2023/4/27/1d9eee15-5c57-4a77-a08a-0af1ada757591682590248647Sweatshirts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 272
     },
@@ -7394,7 +7088,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22072818/2023/2/22/81ff6185-e46c-4a7a-b097-75d0b68fd6f11677025810376SoftToysandDolls2.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "kids",
       "id": 274
     },
@@ -7416,7 +7110,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22072808/2023/2/21/cf9df06a-153c-4c8f-8c84-bccf165892fe1676986759433SoftToysandDolls2.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "kids",
       "id": 275
     },
@@ -7488,7 +7182,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18666832/2022/8/30/6a99237d-045c-4951-899e-76eb9741deb51661838457412-Reebok-Unisex-Black-Brand-Logo-Embroidered-Detail-MYT-Hooded-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 278
     },
@@ -7582,7 +7276,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21678590/2023/2/2/e4d93f5e-ec83-49b7-aace-c3ec0076d7c91675332006512-Roadster-Women-Tshirts-3321675332005987-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 282
     },
@@ -7604,7 +7298,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21579792/2023/1/17/e20c1de5-c8ef-426f-a94e-9de1bcc909d11673951987454MensReebokRbkClassicsBBBasketballFleeceHood1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 283
     },
@@ -7700,7 +7394,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/20877330/2022/11/23/13abd141-8bd2-49ce-be13-4daf0534345f1669190607472Sweatshirts1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "kids",
       "id": 287
     },
@@ -7722,7 +7416,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21470384/2023/1/9/a544662b-77c3-4c43-b3cd-f72d2075aa4b16732576055672-packhoodies1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "kids",
       "id": 288
     },
@@ -7744,7 +7438,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21579788/2023/1/17/a36f27b3-f8df-42e6-bdb1-2fe2b3e1b3c91673951994745MENSReebokFitnessTSTWGrapheneHalfZipHoodie1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 289
     },
@@ -7952,7 +7646,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/20146550/2022/9/23/7da5c0fe-b022-47c6-b1cd-3085e4f4cdf21663942702332JohnPridePlusSizeMenSolidBurgundyPulloverSweatshirt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 298
     },
@@ -8021,7 +7715,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21121780/2022/12/8/b3415a42-a18c-4661-bf75-5394e5b37a3e1670496897433ReebokMenPureCottonSweatshirts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 301
     },
@@ -8044,7 +7738,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/14792192/2022/9/16/467feccf-994b-4d48-b53e-e68ad6b765de1663318814342-Reebok-Men-Sweatshirts-7711663318813678-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 302
     },
@@ -8066,7 +7760,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22016150/2023/2/17/b8d16fd4-6d4f-4a0d-89d7-70efc2300d6f1676623256324MensReebokTELLFZHoodie1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 303
     },
@@ -8091,7 +7785,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21738418/2023/1/28/1b045798-3578-4f76-a3b8-f39daaab5d621674892907345JUNEBERRYWomenOliveGreenHoodedSweatshirt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 304
     },
@@ -8113,7 +7807,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21121788/2022/12/8/7fb12e4c-02e7-45b4-a748-f09f17a2eca71670496893288MensReebokRbkClassicsBBCityLeagueFLCHood1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 305
     },
@@ -8184,7 +7878,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/19186502/2022/9/16/9cf7c29a-6ff7-4cfa-bfbf-edfbfa9fb1fc1663313950618SweatersUnitedColorsofBenettonMenJeansUnitedColorsofBenetton1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 308
     },
@@ -8205,7 +7899,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916144/2023/4/27/541ff4c2-becb-4b45-af72-89c24e18b65c1682590249615Sweatshirts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 309
     },
@@ -8227,7 +7921,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22496786/2023/3/24/4212bcf4-0aee-4d55-aa06-d2626512738e1679649473351Sweatshirts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 310
     },
@@ -8274,7 +7968,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21685038/2023/1/24/74bf6e86-4ecb-43ba-b57f-8d02605f56df1674557490152DukeWomenBluePrintedSweatshirt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 312
     },
@@ -8342,7 +8036,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21679356/2023/1/23/e8fb50d1-bd80-4e12-b3ef-418de550d0b21674494737161TITTLIWomenGreenHoodedSweatshirt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 315
     },
@@ -8481,8 +8175,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22954260/2023/4/29/bd64d70e-030a-4ba3-82d4-04c4e3be968d1682741924051StyliNavyBlueCheckedMaxiDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 321
     },
     {
@@ -8505,8 +8199,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22688440/2023/4/27/6de6de88-3b31-420e-ba53-5b977d053d761682576783956-Urban-Revivo-Charcoal-A-Line-Dress-3051682576783634-1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 322
     },
     {
@@ -8529,8 +8223,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22954274/2023/4/29/070ac243-c370-466a-813e-15a7f2ce524a1682741925776StyliMaroonCapeSleeveMaxiDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 323
     },
     {
@@ -8553,8 +8247,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22924276/2023/4/28/eef31884-130a-4ff0-bf6e-0813cf13b09c1682634182020SASSAFRASRedFloralPrintHalterNeckCrepeA-LineDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 324
     },
     {
@@ -8574,8 +8268,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22688358/2023/4/27/56be67f5-940f-4fbf-9d7a-0538dc82a9371682592302497-Urban-Revivo-Tropical-Print-Twisted-Front-Wrap-Midi-Dress-10-1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 325
     },
     {
@@ -8595,8 +8289,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22688302/2023/4/26/ea31548e-2123-4804-9802-cbc0119bfea41682493387197SkirtsUrbanRevivoWomenSkirtsUrbanRevivoWomenSkirtsUrbanReviv1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 326
     },
     {
@@ -8605,7 +8299,7 @@
       "category_id": 6,
       "type_id": 16,
       "brand": "SUMAVI-FASHION",
-      "price": 338.0,
+      "price": 338,
       "size": [
         "S",
         "XL",
@@ -8619,8 +8313,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22966444/2023/5/1/59342f98-a307-407d-8a59-e7fb43df6d521682909427032SUMAVI-FASHIONBluePrintDenimA-LineMiniDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 327
     },
     {
@@ -8644,8 +8338,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22920768/2023/4/27/7f504d59-e692-4b40-bccb-12a6fd51d3d61682611758172BoStreetNavyBlueFitFlareDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 328
     },
     {
@@ -8666,8 +8360,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22687746/2023/4/18/7bae5110-0e6a-48ee-84dc-edb4b57863631681803066028TshirtsUrbanRevivoWomenDressesUrbanRevivoWomenSkirtsUrbanRev1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 329
     },
     {
@@ -8690,8 +8384,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22920696/2023/4/27/d4cdde2b-ec01-4eff-b9bf-c35f58b75adc1682607355131BoStreetPinkBodyconMiniDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 330
     },
     {
@@ -8714,8 +8408,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22904622/2023/5/1/d739ec53-17c9-4795-a380-bed9039c62c11682962213878MODWEEYellowFloralPrintChiffonFitFlareDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 331
     },
     {
@@ -8737,8 +8431,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22913652/2023/4/27/7d24511e-518b-4f93-9d6a-761af6d8d1881682568266790SCAKHIWomenPinkEthnicMotifsPrintedKeyholeNeckFloralAnarkaliK1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 332
     },
     {
@@ -8759,8 +8453,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22913108/2023/4/26/3351c2c2-56f4-454b-81bd-5b811e6c7fc11682519328746EthnicDresses1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 333
     },
     {
@@ -8780,7 +8474,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22622080/2023/4/27/fb3299f0-994e-434a-a81e-ec754dfe77991682589421471-SECRETS-BY-ZEROKAATA-Women-Pack-of-2-Printed-Cotton-Swimwear-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 334
     },
@@ -8801,8 +8495,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22622096/2023/4/3/d97de659-3d7b-4751-b895-7b63e9a64e821680520979795WomenPackof2PrintedCottonKaftanCoverUpDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 335
     },
     {
@@ -8825,8 +8519,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22039246/2023/2/18/4079b181-a65e-42a5-8255-df9bdc3edc371676722354520FLAMBOYANTBlackStripedA-LineMidiDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 336
     },
     {
@@ -8848,8 +8542,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22960512/2023/4/29/93118919-9151-4a88-a971-851ad6d41c421682774586192MomToBeWomensCottonRedFloralPrintedMaternityNighty1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 337
     },
     {
@@ -8870,7 +8564,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21680700/2023/1/24/3d958542-6769-4a7d-b0bf-7e02872381b71674542256865GirlsSolidDress-Multicolor7.jpg"
       ],
       "rating": 4.4,
-      "gender": "unisex",
+      "gender": "women",
       "id": 338
     },
     {
@@ -8894,7 +8588,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/17045988/2022/2/4/0d9dcffa-936e-4129-a098-e184862a1e9d1643958755775pspeachesMagentaFloralA-LineDress1.jpg"
       ],
       "rating": 4.1,
-      "gender": "unisex",
+      "gender": "women",
       "id": 339
     },
     {
@@ -8940,7 +8634,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21574840/2023/1/16/3076e98e-aaa5-4e36-acf7-8f73a76971581673888686565ATUNMulticolouredStripedKeyholeNeckDress1.jpg"
       ],
       "rating": 4.1,
-      "gender": "unisex",
+      "gender": "women",
       "id": 341
     },
     {
@@ -8964,7 +8658,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/16491076/2021/12/13/92092f8f-921e-4d52-8b0c-d9b04bb72ebd1639372865809PinkChickNavyBlueColourblockedLayeredSatinDress1.jpg"
       ],
       "rating": 4.4,
-      "gender": "unisex",
+      "gender": "women",
       "id": 342
     },
     {
@@ -9011,7 +8705,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22171382/2023/2/28/37f281bd-9235-4e4b-a635-7d869749df511677603839872ATUNMaroonCrepeDress1.jpg"
       ],
       "rating": 3.4,
-      "gender": "unisex",
+      "gender": "women",
       "id": 344
     },
     {
@@ -9033,7 +8727,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21680690/2023/1/24/6bf33ae4-c5c7-4492-832e-5b36829491c51674542264754GirlsSolidDress-Multicolor7.jpg"
       ],
       "rating": 4.3,
-      "gender": "unisex",
+      "gender": "women",
       "id": 345
     },
     {
@@ -9055,7 +8749,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/17786152/2022/7/2/b137cf3d-6243-41bb-8a20-82cfcc4032e21656746823524BitiyabyBhamaGirlsBlackEmbroideredFlutterSleevesMaxiDress7.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "kids",
       "id": 346
     },
@@ -9076,7 +8770,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18276248/2022/5/16/90ab8fbc-6ac9-4b21-8370-33aedb1473bf1652689852927AarikaMulticolouredFloralNetDress1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "kids",
       "id": 347
     },
@@ -9125,7 +8819,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/17585554/2022/3/19/9c1e386b-7755-4242-b372-80f525488a3b1647696366393PinkChickBurgundyNetSheathDress1.jpg"
       ],
       "rating": 4.6,
-      "gender": "unisex",
+      "gender": "women",
       "id": 349
     },
     {
@@ -9149,7 +8843,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18003400/2022/4/23/090191e5-9c59-4f1b-bfcd-d51cb4aa96d61650704469691BitiyabyBhamaOffWhiteFloralMaxiDress1.jpg"
       ],
       "rating": 4.1,
-      "gender": "unisex",
+      "gender": "women",
       "id": 350
     },
     {
@@ -9193,7 +8887,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21521598/2023/3/9/c170bd16-25f9-4ec3-813b-d39aa5361b6d1678339565413-Speedo-Women-Closed-Back-Swimdress-With-Boyleg-2321678339564-1.jpg"
       ],
-      "rating": 5.0,
+      "rating": 5,
       "gender": "women",
       "id": 352
     },
@@ -9219,7 +8913,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22678684/2023/4/6/f975620e-574e-4408-ac15-c63babe03e311680783028973CUKOOPaddedPrintedBlackWhiteSwimwear1.jpg"
       ],
       "rating": 4.3,
-      "gender": "unisex",
+      "gender": "women",
       "id": 353
     },
     {
@@ -9240,7 +8934,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21521588/2023/3/9/6eca3d19-23c3-446d-accf-3010a2ebdb1b1678339509513-Speedo-Women-Racer-Back-Swimdress-With-Boyleg-26167833950875-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 354
     },
@@ -9264,8 +8958,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22678668/2023/4/6/c577c3a4-217d-416e-a1f0-aa7d215480fa1680785289541CUKOOPaddedBlueNaturePrintedSwimwear1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 355
     },
     {
@@ -9286,8 +8980,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22329254/2023/3/14/573dca1f-3936-4c98-b85e-7d2a94398cf01678794134001BURGUNDYPRINTEDA-LINESWIMWEAR1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 356
     },
     {
@@ -9310,7 +9004,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18598104/2022/6/3/be558572-ed66-449a-bbf0-3c9ca4c627e51654244901855RedBlackPrintedBeachwearCover-UpKaftan1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "women",
       "id": 357
     },
@@ -9334,8 +9028,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22920762/2023/4/27/73edaf17-4b09-4e86-b36f-5ff0c25875e51682611755208BoStreetBlackMaxiDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 358
     },
     {
@@ -9358,8 +9052,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22954648/2023/4/29/4c257e1b-a628-473e-ad4b-52155f39f9081682769555475DressBerryYellowFloralFitFlareDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 359
     },
     {
@@ -9382,8 +9076,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22952462/2023/4/29/182678cb-62e4-4747-b548-9d57081b4fa91682735607415FASHIONDWARWhiteFloralPrintFitFlareDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 360
     },
     {
@@ -9403,8 +9097,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22954352/2023/4/29/6f05c7ad-ab3c-4c3e-b030-b0dd3815d7df1682741734810BroderiePuffSleevesA-LineMidiDresswithBackTieUp1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 361
     },
     {
@@ -9426,8 +9120,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22954286/2023/4/29/c668839a-d1c0-46e8-9765-69a32690f52a1682741915936StyliWhiteMaxiDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 362
     },
     {
@@ -9450,8 +9144,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22949280/2023/4/29/a820c585-e9fd-4ab7-93bb-a195e71930971682706849252HatheliLavenderCold-ShoulderFitFlareMidiDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 363
     },
     {
@@ -9474,8 +9168,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22967174/2023/5/1/b5cbd2a1-b345-4c62-983c-394685ae32df1682911770728VAARAROBlackSheathDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 364
     },
     {
@@ -9496,8 +9190,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22688480/2023/4/26/16510da4-f3f3-4303-ac69-e94cc7017b611682493387935SkirtsUrbanRevivoWomenSkirtsUrbanRevivoWomenSkirtsUrbanReviv1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 365
     },
     {
@@ -9517,8 +9211,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22688316/2023/4/26/9fe5f576-89c8-4f65-8016-b8728c048f131682493372245SkirtsUrbanRevivoWomenSkirtsUrbanRevivoWomenSkirtsUrbanReviv1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 366
     },
     {
@@ -9539,8 +9233,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22687920/2023/4/26/7925166b-104e-4f30-b014-fc7deb58d6611682508452084-Urban-Revivo-Floral-Print-Cut-Out-Detail-A-Line-Midi-Dress-3-1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 367
     },
     {
@@ -9562,8 +9256,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22934632/2023/4/28/7ab12dca-2a88-4405-a4c3-9bf6fac23f331682674341262DressBerryGreenPolkaDotPrintGeorgetteFitFlareDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 368
     },
     {
@@ -9585,8 +9279,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22016480/2023/2/17/1bd39524-91b4-48c8-86c8-5891b0d4de161676625594450PURSHOTTAMWALAMaroonEthnicMotifsMaxiDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 369
     },
     {
@@ -9610,8 +9304,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22015158/2023/2/17/db8a4e5d-e86b-45dd-8e95-aff4a76840b11676617579895CHARMGALNavyBlueFloralGeorgetteDrop-WaistDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 370
     },
     {
@@ -9634,8 +9328,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21908186/2023/2/9/978c5ff6-d659-4b85-a017-4c7d047331be1675956920217FIMSBlackNetMidiDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 371
     },
     {
@@ -9657,8 +9351,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21949330/2023/2/13/f74b1374-5676-42b1-8a98-a42cbe3c3d991676256468013StyliRedMaxiDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 372
     },
     {
@@ -9681,8 +9375,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21882414/2023/2/9/40355a03-93e6-4c54-8c1c-c4180ac46ae81675925564099MayraRedSheathDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 373
     },
     {
@@ -9702,8 +9396,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21979848/2023/2/14/825b308c-6299-4fbc-bdd9-bf919d6987401676395299496ATUNWomensBlazerDress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 374
     },
     {
@@ -9727,7 +9421,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21931710/2023/2/10/5504ccd6-ac1c-42b7-a1a6-effcc47e67cf1676037044296250DESIGNSPeach-ColouredEmbellishedHalterNeckJacquardMaxiDre1.jpg"
       ],
       "rating": 4.8,
-      "gender": "unisex",
+      "gender": "women",
       "id": 375
     },
     {
@@ -9750,8 +9444,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22921812/2023/4/27/6d4a89bb-cde5-4447-b8ad-21a6fddade581682612870489Nightdress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 376
     },
     {
@@ -9774,8 +9468,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892144/2023/4/25/c6bcb221-ef10-4116-b366-8564ea555c991682428773084SweetDreamsWomenPrintedBridalSet1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 377
     },
     {
@@ -9798,8 +9492,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892160/2023/4/25/c910e0fd-8501-4e25-bb6d-ca7d72fa8d991682428789189SweetDreamsWomenPrintedHalfSleevesMaxiNightdress1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 378
     },
     {
@@ -9845,7 +9539,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/15048504/2021/9/16/05aecec9-75bc-4138-80b3-893608bf6fdc1631788194006PinkChickRoseSatinMaxiDress1.jpg"
       ],
       "rating": 4.5,
-      "gender": "unisex",
+      "gender": "women",
       "id": 380
     },
     {
@@ -9939,7 +9633,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/19141384/2022/7/16/229adff8-7388-4f71-9e42-3ce5f15a4ea01657970263578ATUNGirlsOne-ShoulderTullePartyDress1.jpg"
       ],
       "rating": 3.9,
-      "gender": "unisex",
+      "gender": "women",
       "id": 384
     },
     {
@@ -10033,7 +9727,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21548136/2023/3/30/90f0cb4b-539a-4148-bbb6-1c1e9a341a611680161084131PantaloonsJuniorBellSleevesFloralDress1.jpg"
       ],
       "rating": 4.4,
-      "gender": "unisex",
+      "gender": "women",
       "id": 388
     },
     {
@@ -10076,7 +9770,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22474296/2023/3/23/fd98bf04-c0a6-4cbe-a71b-68ea4d1c2ad71679514673287ATUNGirlsShimmerPartyDress1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "kids",
       "id": 390
     },
@@ -10100,8 +9794,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22862184/2023/4/28/1ce20da8-3abf-4a18-b04f-aec1299f4ff81682663647633-Black-Heavy-Embroderied-Gerogette-Siquins-top-63216826636472-1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 391
     },
     {
@@ -10121,7 +9815,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/16924904/2023/4/27/6633a8bd-3a27-4c44-96f7-e4d6189928c21682579556806-Sztori-Women-Tops-7761682579556384-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 392
     },
@@ -10144,8 +9838,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22958968/2023/4/29/762a722c-014d-42e4-9bc1-16e77eab7e4d1682773508393BRINNSCream-ColouredCropTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 393
     },
     {
@@ -10169,8 +9863,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22929344/2023/4/28/96ff188e-5001-4d8f-808a-53d183d980791682650075300RAASSIOTurquoiseBlueMandarinCollarCrepeShirtStyleTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 394
     },
     {
@@ -10193,8 +9887,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22961004/2023/4/29/d7ac0d7b-99c5-4fe9-a2cd-70bf9f459f531682778111202Tops1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 395
     },
     {
@@ -10216,8 +9910,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22954644/2023/4/29/dc6921e2-d0b1-4c0f-bf94-f8aeece11e731682769570155DressBerryBrownKimonoSleeveGeorgetteKaftanTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 396
     },
     {
@@ -10238,8 +9932,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22929280/2023/4/28/72458490-6a00-4c53-ae6c-af55e553ad071682629525713SHEETALAssociatesMulticolouredFloralPrintRoll-UpSleevesCrepe1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 397
     },
     {
@@ -10261,8 +9955,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22933492/2023/4/28/5376c1f4-65e2-4c04-b424-ad62c24d32f81682670563249NEUDISGreenCinchedWaistTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 398
     },
     {
@@ -10283,8 +9977,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22959008/2023/4/29/d8ba93f1-fdcd-4cc9-b8f1-3612c0178f1c1682773537114BRINNSMulticolouredGeometricPrintCrepeTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 399
     },
     {
@@ -10305,8 +9999,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22938730/2023/4/29/b8ac4b54-8160-4be0-91e0-31576293fb631682708370409Tops1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 400
     },
     {
@@ -10328,8 +10022,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22954264/2023/4/29/8b8af5ed-7fc7-45cc-b473-1f0843bb2b021682785060053StyliWomenOffWhiteFloralPrintedV-NeckPocketsT-shirt1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 401
     },
     {
@@ -10351,8 +10045,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22929292/2023/4/28/c059c657-0e3f-406d-867f-8739a94aadb01682629535743SHEETALAssociatesBlackFloralPrintFlaredSleeveCrepeCropTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 402
     },
     {
@@ -10375,8 +10069,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22960936/2023/4/29/d5797163-5037-4c40-ad25-1350170818fd1682779311596Tops1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 403
     },
     {
@@ -10398,8 +10092,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22927504/2023/4/28/18bf0f59-7d91-473e-b545-aee2c517c9441682628972735DisruptPinkCropTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 404
     },
     {
@@ -10422,8 +10116,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22960930/2023/4/29/b127f9f6-89d3-4f83-aac0-11b36ab465ee1682779299136GUTIRedCottonCropTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 405
     },
     {
@@ -10446,8 +10140,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22033752/2023/2/18/8e40c343-c25a-4956-a124-d2c82013fc421676703739412RuhaansBlackPrintTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 406
     },
     {
@@ -10467,8 +10161,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21441872/2023/2/17/18199184-3188-4b69-8832-cc9b80ef56101676624623908-MALHAAR-Mandarin-Collar-Shirt-Style-Top-8221676624623266-1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 407
     },
     {
@@ -10490,8 +10184,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22015018/2023/2/17/f5edef2e-882d-46e1-b9f3-5b902296c1921676617572906IDKGreenGeometricPrintMandarinCollarTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 408
     },
     {
@@ -10513,7 +10207,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22005360/2023/2/16/7dd3f3af-2d3a-42c2-b638-203bfabf09731676554461412Puff-sleevedtop1.jpg"
       ],
       "rating": 4.3,
-      "gender": "unisex",
+      "gender": "women",
       "id": 409
     },
     {
@@ -10535,15 +10229,15 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22838218/2023/4/27/1bfcb266-bf3a-4743-8ab6-623998df97531682576358408NYXPROFESSIONALMAKEUPBarewithMeConcealerSerumwithGreenTea96m1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 410
     },
     {
       "title": "15 Inch Laptop Overnighter-45L",
       "description": "Tommy Hilfiger · 4.4 stars from 2200 verified ratings",
-      "category_id": 7,
-      "type_id": 19,
+      "category_id": 11,
+      "type_id": 32,
       "brand": "Tommy Hilfiger",
       "price": 506.83,
       "size": [
@@ -10699,8 +10393,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892608/2023/4/25/7abc2ebe-f082-440b-9f7c-c68de1e512891682423989720PlusSizeCopperEmbellishedCo-ordSet1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 417
     },
     {
@@ -10721,7 +10415,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22683472/2023/4/26/6f627bc9-8107-4fba-9787-8fa06af483851682498973984-IX-IMPRESSION-Women-Tops-3831682498973339-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 418
     },
@@ -10744,8 +10438,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22957732/2023/4/29/25ffc6b3-9bcc-4835-859a-d6fb3591c9021682791461346RomaisaBlueFloralPrintTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 419
     },
     {
@@ -10768,8 +10462,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22931342/2023/4/28/6b3ecd7c-3644-46c3-b7fb-70984bf4effc1682662928046FASHIONDEPTHGreenTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 420
     },
     {
@@ -10791,8 +10485,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22931340/2023/4/28/337cbd3b-147a-47d8-bc91-865df74d642b1682678915971FASHIONDEPTHWhiteFloralPrintTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 421
     },
     {
@@ -10813,8 +10507,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22864290/2023/4/22/beea97f7-9181-41e6-a270-27a8a2d1056c1682156853133PINKFLORALPRINT3PCKURTASET1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 422
     },
     {
@@ -10836,8 +10530,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22921002/2023/4/27/54b3f03a-765a-459a-8692-17ff195907001682607563816TheMomStoreBlackFloralPrintMandarinCollarCottonLonglineTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 423
     },
     {
@@ -10860,8 +10554,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22929294/2023/4/28/097c8bcb-41b6-4469-9980-62d28a8279aa1682629533447SHEETALAssociatesBlackFloralPrintCrepeTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 424
     },
     {
@@ -10882,15 +10576,15 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22689074/2023/4/26/61804be6-ac71-4bd8-a7f6-e2eee55f852f1682508227138-Urban-Revivo-Puff-Sleeve-Peplum-Top-6071682508226745-1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 425
     },
     {
       "title": "Vegan Leather Laptop Bag",
       "description": "CRAYTON · 0.0 stars from 0 verified ratings",
-      "category_id": 7,
-      "type_id": 19,
+      "category_id": 11,
+      "type_id": 32,
       "brand": "CRAYTON",
       "price": 201.79,
       "size": [
@@ -10905,7 +10599,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22884566/2023/4/27/7cd47a72-ee24-43e1-a127-9eb1c44697821682577320943CRAYTONUnisexMaroonLaptopBag1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 426
     },
@@ -10929,7 +10623,7 @@
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22003436/2023/2/16/c85048f5-021d-41a7-8f03-537c401a87ff1676548609813CHARMGALBlackFloralPrintGeorgetteTop1.jpg"
       ],
       "rating": 4.3,
-      "gender": "unisex",
+      "gender": "women",
       "id": 427
     },
     {
@@ -10953,8 +10647,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22017488/2023/2/17/8814d437-ccbb-41f3-931f-7d778dc42e601676628902363ThePinkMoonWhiteGeorgetteTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 428
     },
     {
@@ -10977,8 +10671,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22031428/2023/2/18/c7b07fa4-a2a6-497a-82bd-ed97af8dd7cd1676659726092IXIMPRESSIONBlackMandarinCollarTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 429
     },
     {
@@ -11001,8 +10695,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22010142/2023/2/16/9bbbea96-c032-4d22-92bc-512b021fc2d81676562215284NEUDISBlackPrintTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 430
     },
     {
@@ -11025,8 +10719,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22008604/2023/2/16/bff50e85-324c-4431-a46f-8555a0a30a331676556965935SAAKAABurgundyTie-UpNeckTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 431
     },
     {
@@ -11048,8 +10742,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22033838/2023/2/18/3c4d2686-4972-4f20-838c-596d32c257d71676704031138RuhaansWhiteOmbreLonglineTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 432
     },
     {
@@ -11072,8 +10766,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22008614/2023/2/16/bafb0e75-c62a-446b-b395-e1a472a908261676556953594SAAKAABlackTie-UpNeckTop1.jpg"
       ],
-      "rating": 4.0,
-      "gender": "unisex",
+      "rating": 4,
+      "gender": "women",
       "id": 433
     },
     {
@@ -11095,8 +10789,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22033812/2023/2/18/71ff73da-c786-43f2-bd7a-6b62344b1eea1676703765329RuhaansRedFloralPrintCrepeTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 434
     },
     {
@@ -11116,8 +10810,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21970008/2023/2/14/58b0a91f-3365-4bef-bc1d-7cfe40ce9f021676372508184Tops1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 435
     },
     {
@@ -11140,8 +10834,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22017480/2023/2/17/a511c5c9-5f66-4396-862d-ccbfb98e35e71676628838537ThePinkMoonOrangeFloralPrintTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 436
     },
     {
@@ -11186,8 +10880,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22031424/2023/2/18/38866f56-c929-4a0a-b4d3-d473003ceaf11676659729907IXIMPRESSIONRedFloralPrintMandarinCollarTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 438
     },
     {
@@ -11211,8 +10905,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22010136/2023/2/16/4004d6c4-cc4d-4744-b1ec-96c5ce22ecc51676562212898NEUDISNavyBlueEmbellishedTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 439
     },
     {
@@ -11235,8 +10929,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22033808/2023/2/18/3ae90f58-cb6f-4ac2-9b2c-0850c2dd0bdc1676703838160RuhaansNavyBlueStripedCrepeTop1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 440
     },
     {
@@ -11256,7 +10950,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928230/2023/4/28/ba77416f-43d5-4d5e-8959-f338912537281682656204984TrackPants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 441
     },
@@ -11280,7 +10974,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22907700/2023/4/26/7099f536-0334-4b4a-819e-f48c056a41321682506177236CloraDarkGreySolidMidRiseCottonTrackpants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 442
     },
@@ -11302,7 +10996,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22899758/2023/4/25/b31e915a-26b2-419e-8d2a-1674929e2c601682431527300KepaRegularFitCottonRibTrackpantsForWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 443
     },
@@ -11324,7 +11018,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22899794/2023/4/25/17b6728b-6482-4eeb-a59d-c420c8fb66ed1682431464010KepaPlusSizeCottonTrackpantsForWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 444
     },
@@ -11346,7 +11040,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22899770/2023/4/25/e30d6bd4-aeb7-481f-8651-08f0f185b4e11682432725148KepaPlusSizeCottonTrackpantsForWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 445
     },
@@ -11367,7 +11061,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916188/2023/4/27/3b3fdc4c-a5fb-496d-90d4-bab28e540ea11682583408996TrackPants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 446
     },
@@ -11388,7 +11082,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22899786/2023/4/25/63cffd69-3bec-4c7a-b565-5b004b214bfc1682435080278KepaPlusSizeCottonTrackpantsForWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 447
     },
@@ -11410,7 +11104,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916184/2023/4/27/b6d72252-2a6d-408b-9ecc-4b2025e8e8641682582375868TrackPants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 448
     },
@@ -11433,7 +11127,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/19444600/2022/8/30/0da2ab8e-5d8e-44bd-82d6-340b777988aa1661855827682-HRX-by-Hrithik-Roshan-Mens-Graphic-Black-Regular-Fit-Track-p-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 449
     },
@@ -11480,7 +11174,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/14014788/2021/10/1/7576f16b-e912-4609-90af-0a74035e5fc21633072185569-HIGHLANDER-Men-Black-Solid-Slim-Fit-Track-Pants-146163307218-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 451
     },
@@ -11552,7 +11246,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18204214/2022/7/13/e5fb026c-7987-4693-8847-d26ea3bcf4581657703901321-HRX-by-Hrithik-Roshan-Navy-Blue-Fashion-Mens-Track-pants-225-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 454
     },
@@ -11666,7 +11360,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22037678/2023/2/18/f45b13cc-d490-4c0a-9af0-5739d34453ae1676717494962FRENCHFLEXIOUSWomensPolyesterSolidSportsTrackpant1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 459
     },
@@ -11689,7 +11383,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892188/2023/4/25/7ecec056-2e85-41db-9100-11f86558b04a1682417503178SweetDreamsWomenSolidAnkleTrackpants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 460
     },
@@ -11711,7 +11405,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22899774/2023/4/25/3dc7eb36-17aa-446a-9c24-57df2eb606011682435861632KepaRegularFitCottonRibTrackpantsForWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 461
     },
@@ -11733,7 +11427,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916186/2023/4/27/3e79cecd-0c92-41ca-892c-9ba51e26c3f91682581191208TrackPants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 462
     },
@@ -11963,7 +11657,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18486028/2022/6/4/f8bc138c-aacb-4980-88ab-2b4d6598c8391654342900814HELLCATBoysPackof2CottonTrackPants1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "kids",
       "id": 472
     },
@@ -12058,7 +11752,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916180/2023/4/27/fece5e41-80da-4374-9b03-fdf681d87de11682583518141TrackPants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 476
     },
@@ -12080,7 +11774,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916182/2023/4/27/5ac7015f-7dc0-4eaa-b660-9cbfc0f948641682583305177TrackPants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 477
     },
@@ -12128,7 +11822,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/2312416/2019/4/23/7752d856-bdb9-4116-858f-919addd7907d1556023370851-HRX-by-Hrithik-Roshan-Black-Active-Track-Pants-2261556023369-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 479
     },
@@ -12222,7 +11916,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22854742/2023/4/27/a9aea2e6-2efb-4ebb-baf1-403ae3fb120c1682579543513-Laabha-Women-Track-Pants-5761682579543030-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 483
     },
@@ -12243,7 +11937,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916190/2023/4/27/8f84b93f-72c8-48ad-92ee-feee1c680c1d1682580954582TrackPants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 484
     },
@@ -12268,7 +11962,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22907704/2023/4/26/e2d4cf76-a239-4e54-8af6-6046229515d11682504755543CloraNavyBlueSolidMidRiseCottonTrackpants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 485
     },
@@ -12290,7 +11984,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22814292/2023/4/18/e4ca468b-0111-46b0-95fa-e08be2a951161681826996370WomensTrackPant1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 486
     },
@@ -12311,7 +12005,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22868754/2023/4/22/be231dcf-05c9-407b-bde1-97926f94f91d1682170441875CHKOKKOWomenCasualLowerTrackPant1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 487
     },
@@ -12333,7 +12027,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22814288/2023/4/18/c07a8455-b55a-4635-993c-0d806654e2301681830633004WomensTrackPant1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 488
     },
@@ -12402,7 +12096,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22941438/2023/4/28/785ccb25-d880-4521-abf2-75d9cfb435141682677006906LYRAWomenBrownOriginalTrousers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 491
     },
@@ -12425,7 +12119,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22006894/2023/2/16/e07a9207-07d3-4bdd-9daf-79c70bbb3bda1676560766832NextOneWomenBlackStraightFitHigh-RiseEasyWashTrousers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 492
     },
@@ -12494,7 +12188,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/3881067/2019/8/22/49ab3004-c048-48d0-ba20-167118df26141566479254643-HIGHLANDER-Men-Grey-Tapered-Fit-Solid-Cropped-Chinos-8521566-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 495
     },
@@ -12519,7 +12213,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22845656/2023/4/21/444d9251-16dc-42ce-872b-e39f3b44c5921682051815981Trousers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 496
     },
@@ -12703,7 +12397,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22689014/2023/4/26/e118eb8c-17a5-4435-92d4-042552f85ff91682493365862SkirtsUrbanRevivoWomenSkirtsUrbanRevivoWomenSkirtsUrbanReviv1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 504
     },
@@ -12725,7 +12419,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22688978/2023/4/19/d02ac3e5-33a5-4ea3-9fb4-d38a0d73d05e1681898504384DressesUrbanRevivoWomenSkirtsUrbanRevivoWomenDressesUrbanRev1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 505
     },
@@ -12746,7 +12440,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21984636/2023/2/15/f521de09-d9f7-497d-8b52-f0ec1ca458a51676444882189Cigarettetrousers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 506
     },
@@ -12817,7 +12511,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22020752/2023/2/17/1ae0287d-6563-45fe-9f2f-621fc78bbc931676630711504BROADSTARWomenBlackClassicLooseFitHigh-RiseEasyWashTrousers1.jpg"
       ],
-      "rating": 5.0,
+      "rating": 5,
       "gender": "women",
       "id": 509
     },
@@ -12840,7 +12534,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21998808/2023/2/16/fe06a9aa-7268-401d-b15d-f3a76fe0bfcb1676526349387BROADSTARWomenBlackRelaxedLooseFitHigh-RiseEasyWashPleatedTr1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 510
     },
@@ -12861,7 +12555,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22041328/2023/3/31/790a7958-2102-4cf4-ab60-8155608e2ed41680253542183ONLYWomenConversationalPrintedLooseFitHigh-RiseTrousers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 511
     },
@@ -12907,7 +12601,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21998786/2023/2/16/3c20f20e-dbbf-4e53-9bde-97f9be9cc2a31676522986438BROADSTARWomenBlackRelaxedLooseFitHigh-RiseEasyWashTrousers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 513
     },
@@ -13210,7 +12904,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22689068/2023/4/27/76824c42-67c4-4c36-853c-78be70b575011682577730835-Urban-Revivo-Women-Tie-and-Dye-Flared-High-Rise-Trousers-252-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 526
     },
@@ -13234,7 +12928,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21948498/2023/2/13/27a4d7aa-b2a2-470b-ad51-1fe53b8b6ab01676268461649NextOneWomenBlackSmartFlaredHigh-RiseEasyWashTrousers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 527
     },
@@ -13326,8 +13020,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22940244/2023/4/28/91f4e864-91cf-4414-a7c6-b771999672a41682687299525MastHarbourPurplePrintedPUBlockPumps1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 531
     },
     {
@@ -13348,7 +13042,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/20883034/2023/4/21/6c391c4a-fd5d-437b-aa8b-f59fe1fcb9701682062836310-Skechers-Women-Sandals-1721682062835809-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 532
     },
@@ -13371,7 +13065,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22929182/2023/4/28/68c9515c-080e-46d2-aa37-98b74f592af61682668006592WALKWAYbyMetroWomenBlueOpenToeFlatswithBuckles1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 533
     },
@@ -13394,7 +13088,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22962336/2023/4/29/d2f30093-1d27-42bb-a9e3-2291519de6101682778678614AnoukWomenPeach-ColouredPrintedOpenToeFlats1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 534
     },
@@ -13418,8 +13112,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22940254/2023/4/28/fd794507-df1e-4e64-9fbb-e9a5a5ac94b81682683285796MastHarbourSilver-TonedPrintedPUBlockPumps1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 535
     },
     {
@@ -13442,8 +13136,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928888/2023/4/28/c6f9abb1-132b-438e-8b84-b155a53af1e21682655697678HASTENOrangeWedgePumps1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 536
     },
     {
@@ -13465,8 +13159,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928866/2023/4/28/95f57a69-7cc4-4d85-9e0b-1f1c12a1c58f1682672912032HASTENBlueWedgePeepToeswithBuckles1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 537
     },
     {
@@ -13488,7 +13182,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22913322/2023/4/26/4bad895f-fbbf-472e-be3a-eb03784bc56f1682533751657JUMPLITEV-3WomenBlackRunningShoes-36Euro1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 538
     },
@@ -13512,7 +13206,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22955240/2023/4/29/7bf96b72-6a25-41a2-a2e6-d834e19bf3ff1682763323778WalkfreeWomenPeach-ColouredEmbellishedOpenToeFlats1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 539
     },
@@ -13536,7 +13230,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22920106/2023/4/27/937e9e82-8976-44d6-b9e1-ab7b8ccd1e7d1682607221687JUMPLITEV-2WomenBlackRunningShoes-36Euro1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 540
     },
@@ -13558,7 +13252,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22602758/2023/4/19/1787ae9f-c1ce-4d71-8738-878eba7d75db1681896854528PumaWomenColourblockedFutureRiderPastelSneakers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 541
     },
@@ -13580,7 +13274,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21398764/2023/4/27/5a21338f-7fc1-4166-8f46-e9e0728e754d1682593001737-Mast--Harbour-Women-Flats-5411682593000700-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 542
     },
@@ -13603,8 +13297,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928872/2023/4/28/a32a3892-f37d-4311-8fee-7ed2fa5809d21682672547134HASTENCream-ColouredEmbellishedSlimHeeledPumpswithBuckles1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 543
     },
     {
@@ -13627,7 +13321,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22929224/2023/4/28/bd7674af-b6c7-4a81-b911-736e6048c06a1682669379048WALKWAYbyMetroWomenBlackColourblockedOpenToeFlats1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 544
     },
@@ -13651,8 +13345,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22923874/2023/4/27/c57fe2cf-ccea-4576-9730-e62d0ac968061682608943311PEPPERWomenPeach-ColouredEthnicOneToeFlats1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 545
     },
     {
@@ -13674,8 +13368,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22955280/2023/4/29/2790e159-5c06-4333-ae71-e5c170be71741682759019261WalkfreeWhiteWedgeSandalswithBuckles1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 546
     },
     {
@@ -13697,7 +13391,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22910848/2023/4/27/a3f1b7bf-aba1-42e2-9455-7d4e3d564f2d1682575412617BrauchWomenBlackEthnicBallerinaswithBucklesFlats1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 547
     },
@@ -13721,7 +13415,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22913342/2023/4/26/fd386b7c-25c0-485e-8bab-6717fec2422d1682532827073JUMPLITEH-4WomenPinkRunningShoes-36Euro1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 548
     },
@@ -13746,7 +13440,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22919502/2023/4/28/5a7327a2-e57b-40a8-a000-f02e0ff9cd761682635326376SparxWomenNavyBlueRedSportsShoes1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 549
     },
@@ -13768,7 +13462,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/20911446/2023/4/27/aeab00f9-daf8-4711-bcd5-5d10c2d2d7d91682592983814-Mast--Harbour-Women-Flats-8651682592983556-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 550
     },
@@ -13792,8 +13486,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22870338/2023/4/24/fa3cfe00-61c4-4503-a4bb-8a393229aa4f1682351988673Sandals1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 551
     },
     {
@@ -13816,7 +13510,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928360/2023/4/27/8bbae0dc-4b0b-4359-b26a-b61f79374ee01682616402818DressBerryWomenNavyBlueBallerinasFlats1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 552
     },
@@ -13837,7 +13531,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22602944/2023/4/19/7f5a3198-beb8-418d-8933-8fb5132d88a51681886239704InfusionUnisexTrainingShoes1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 553
     },
@@ -13967,7 +13661,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21820922/2023/3/27/5ca7093b-4d21-403c-9a8b-6e7c15bf79901679894111714-Reebok-Unisex-Sports-Shoes-8031679894111278-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 559
     },
@@ -13988,7 +13682,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21820816/2023/2/14/dfa1783b-f540-4b4c-bd73-3c66ffc03a701676354993810-Reebok-Men-Brand-Logo-Print-Nanoflex-TR-20-Training-or-Gym-N-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 560
     },
@@ -14055,7 +13749,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21820958/2023/3/27/87a87c4e-4356-4db3-8ad8-fbc326a6e25e1679898681173-Reebok-Men-Perforated-Classic-Leather-Running-Shoes-30116798-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 563
     },
@@ -14077,7 +13771,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21820888/2023/3/27/7b29aaeb-0f8f-4056-b5af-5a5a9eeac6f31679907296867-Reebok-Men-Woven-Design-Zig-Dynamica-4-Running-Shoes-6181679-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 564
     },
@@ -14165,7 +13859,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21821042/2023/3/27/88614da6-14da-4d75-ba0e-8982db76b0241679902154454-Reebok-Men-Brand-Logo-Detail-NFX-Trainer-Gym-Shoes-583167990-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 568
     },
@@ -14207,7 +13901,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21820920/2023/3/6/f5155683-d851-46d0-95d4-ce62cb7e7f991678094323528-Reebok-Men-Woven-Design-Nanoflex-TR-20-Training-Shoes-459167-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 570
     },
@@ -14229,7 +13923,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21820796/2023/3/6/67063fd6-1666-4f58-8b57-462ee02f373e1678084446230-Reebok-Men-Brand-Logo-Printed-Energen-Plus-2-Running-Shoes-1-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 571
     },
@@ -14271,7 +13965,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21820774/2023/3/27/e7283201-7495-4060-ba34-5888339a99b91679910934252-Reebok-Unisex-CL-Legacy-AZ-Running-Shoes-2181679910933840-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 573
     },
@@ -14432,8 +14126,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928378/2023/4/27/d6243801-1846-4900-b84d-264ef40489ac1682611954659DressBerryWomenTanBallerinaswithBowsFlats1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 580
     },
     {
@@ -14454,8 +14148,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22924854/2023/4/27/3d1019cf-5f89-458f-ad67-271246e554a81682612805784TruffleCollectionNude-ColouredEmbellishedBlockSandals1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 581
     },
     {
@@ -14479,8 +14173,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928386/2023/4/28/d44d7f76-e083-4b1e-9635-6804ab34a38f1682655989772DressBerryWomenWhiteBallerinaswithBowsFlats1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 582
     },
     {
@@ -14502,8 +14196,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928878/2023/4/28/96277105-a6ae-4a6b-96ce-c7bcc444b5501682655866916HASTENBlackComfortSandals1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 583
     },
     {
@@ -14526,8 +14220,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22929168/2023/4/28/4cf2fb6d-bf52-463f-801f-db23fe32d2ad1682655910978WALKWAYbyMetroPinkBlockSandals1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 584
     },
     {
@@ -14550,8 +14244,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928376/2023/4/27/ebe1e073-8cc3-40f3-98af-31cccda323ef1682611554709DressBerryWomenBeigeBallerinasFlats1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 585
     },
     {
@@ -14560,7 +14254,7 @@
       "category_id": 10,
       "type_id": 28,
       "brand": "Metro",
-      "price": 157.0,
+      "price": 157,
       "size": [
         "UK 6",
         "UK 7",
@@ -14574,7 +14268,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22954422/2023/4/29/79a2d90a-7250-4fac-a86b-393572545d861682765021912MetroWomenWhiteOpenToeFlats1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 586
     },
@@ -14598,7 +14292,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22951422/2023/4/29/8df67794-d3c7-4615-a074-7d46f17696a01682755644590LongwalkWomenWhiteColourblockedSneakers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 587
     },
@@ -14622,8 +14316,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22940236/2023/4/29/cc92e933-2c71-492c-a4a0-1bf653c246081682742741263MastHarbourCream-ColouredPUBlockPumps1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 588
     },
     {
@@ -14646,7 +14340,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22951450/2023/4/29/03cdd31c-e941-4add-895b-4c764348ce581682757487286LongwalkWomenWhitePerforationsSneakers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 589
     },
@@ -14669,7 +14363,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22951418/2023/4/29/18f5c2fc-f562-4602-90d9-9a90a12bc34d1682757430846LongwalkWomenWhiteSneakers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 590
     },
@@ -14692,7 +14386,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22924880/2023/4/27/6b658447-66f5-4694-9b51-9f06495daa281682605489321TruffleCollectionWomenPinkBallerinaswithBucklesFlats1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 591
     },
@@ -14715,7 +14409,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22949758/2023/4/29/847b358d-6867-4c99-ae07-1ee20415348a1682754905779HRXbyHrithikRoshanWomenOrangeSneakers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 592
     },
@@ -14739,7 +14433,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22951452/2023/4/29/409ec4a0-0be0-4722-9642-676bc36947471682757538823LongwalkWomenWhiteWovenDesignSneakers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 593
     },
@@ -14762,8 +14456,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22929174/2023/4/28/8f1a15a3-1296-4541-979c-2be323818e701682659426020WALKWAYbyMetroWhiteEmbellishedBlockSandals1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 594
     },
     {
@@ -14786,7 +14480,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22924876/2023/4/27/4302b865-1319-431d-bafe-7975953e0cd31682601326712TruffleCollectionWomenPinkEmbellishedBallerinaswithLaserCuts1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 595
     },
@@ -14809,8 +14503,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22924862/2023/4/27/32bf283f-0719-4f3a-80e8-a3e46c8362d11682606798851TruffleCollectionSilver-TonedPUBlockPumpswithBows1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 596
     },
     {
@@ -14833,7 +14527,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22924896/2023/4/27/a41a65b0-fa71-44a8-8893-92162ad7cc1b1682606868021TruffleCollectionWomenBlueColourblockedSneakers1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 597
     },
@@ -14856,8 +14550,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22924868/2023/4/28/db2dc1b0-be10-4a30-9b43-d8e567ca8ec41682658089021TruffleCollectionGreenPUBlockPumpswithBows1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 598
     },
     {
@@ -14879,8 +14573,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928288/2023/4/28/48ad8640-ba1c-46de-8637-4ebc3e956cfe1682659195593DressBerryBlackColourblockedLeatherBlockPeepToes1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 599
     },
     {
@@ -14904,7 +14598,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22929298/2023/4/28/7d20cebb-4212-48ac-8360-a04eb93f93881682643053770RoadsterWhitePinkWalkingSportsShoeForWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 600
     },
@@ -14924,7 +14618,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22929228/2023/4/28/d185c277-f806-42e9-8054-70aee12b4e081682632941317RESISTEYEWEAROVALUVPROTECTIONBLACKFREESIZESUNGLASSESFORMENAN1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 601
     },
@@ -14946,7 +14640,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22886254/2023/4/25/c81dd6d6-efb0-4553-8af7-6a78e9c9870f1682410385698MAGNEQSqureShapedUnisexBlackSunglassesMG2140SC156181.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 602
     },
@@ -14966,7 +14660,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22914374/2023/4/27/7c60232e-b544-41ad-ad0e-3a45eb50ec391682577438232CrussetLadiesCasualBelt1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 603
     },
@@ -14988,7 +14682,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22935820/2023/4/28/dccb7af5-17a9-4e6b-b1b4-17bb55bb2cbd1682688547164MetroYellowTexturedShopperSlingBagwithQuilted1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 604
     },
@@ -15008,7 +14702,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22902594/2023/4/26/5b348a9b-ce8a-472b-ad38-ecee4df38876168249360531620DressesTanSolidWaistBeltWithChainDropForWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 605
     },
@@ -15030,7 +14724,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22886240/2023/4/25/352afc0f-a1df-4545-a8ab-7afa4ff815641682410373949MAGNEQPilotShapedPurplePolaroizedUnisexSunglassesMG2207SC3551.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 606
     },
@@ -15050,7 +14744,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22890264/2023/4/27/e9053713-8d3b-4fe5-a6bb-ea7f51d9e8581682588772924-pebble-Unisex-Smart-Watches-6371682588772060-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 607
     },
@@ -15072,7 +14766,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22902632/2023/4/26/b1dc4a9a-ebd6-4524-aafc-18d5366fb0f31682498496643WomensSilverAnalogueChainWatchwithBracelet1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 608
     },
@@ -15092,7 +14786,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22822980/2023/4/19/2a02ba75-56d9-4f47-8a85-0bd6671144631681913166363Watches1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 609
     },
@@ -15112,7 +14806,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22823042/2023/4/19/3ffb32f3-27db-4657-b4c7-0cbb0c4ab6461681913708338Watches1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 610
     },
@@ -15132,7 +14826,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22791656/2023/4/15/8100b8ec-50b0-4080-b0eb-30ce95d02fbd1681561635357Giftsetconsistsof1watchand4BangleBracelet1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 611
     },
@@ -15152,7 +14846,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22822978/2023/4/19/0e2a7a49-3654-4116-a805-26622002db211681908554356Watches1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 612
     },
@@ -15172,7 +14866,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22803258/2023/4/17/0b0c3eba-ff7e-4c0c-b14d-93601f811d461681742683278Watches1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 613
     },
@@ -15192,7 +14886,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22881410/2023/4/24/dd8ed9c5-bb53-4d27-a046-8dd82d539e921682337947595KillerWomenBrassDialLeatherTexturedStrapsAnalogueWatchKLFO361.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 614
     },
@@ -15212,7 +14906,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22867728/2023/4/22/314052ed-fa33-4091-9eb8-43469d24c0651682169179029WomenmettalicRoseGoldwatch1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 615
     },
@@ -15234,7 +14928,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22822968/2023/4/19/96d8be0d-c8a2-4b08-a83c-30edbec7f5391681910620527Watches1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 616
     },
@@ -15254,7 +14948,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22822998/2023/4/19/87aa33e8-a00b-4752-bab7-18f7ba53ebdd1681908179267Watches1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 617
     },
@@ -15274,7 +14968,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22823036/2023/4/19/a537cd4c-035f-4072-a204-3e6a0fcc4dfc1681910676438Watches1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 618
     },
@@ -15294,7 +14988,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22881414/2023/4/24/59257aae-27cf-4a62-90a5-7ad01fb33e0d1682346287702KillerWomenBrassDialLeatherTexturedStrapsAnalogueWatchKLW5241.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 619
     },
@@ -15316,7 +15010,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22867722/2023/4/24/6aa68c92-7708-4e84-ac72-76d311103e961682308786858WATCHSTARWomenGreenEmbellishedDialGreenStainlessSteelStrapsA1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 620
     },
@@ -15336,7 +15030,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22770560/2023/4/21/0e113bff-0905-4bc9-af94-fcebfab3ba8b1682075076722-Fire-Boltt-Unisex-Smart-Watches-7601682075076097-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 621
     },
@@ -15346,7 +15040,7 @@
       "category_id": 11,
       "type_id": 29,
       "brand": "TISSOT",
-      "price": 7267.0,
+      "price": 7267,
       "size": [
         "One Size"
       ],
@@ -15356,7 +15050,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22799074/2023/4/17/e4af75f9-336e-4066-a836-ccaabc76951d1681722608568TissotSeastar100036mmT12021017116001.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 622
     },
@@ -15379,7 +15073,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22823048/2023/4/19/f45cb4b7-8205-4429-add5-5567814242aa1681911836883Watches1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 623
     },
@@ -15399,7 +15093,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22799084/2023/4/17/72632549-f6c5-44ca-bd26-54fc88f123561681723436340TissotChemindesTourellesPowermatic8039mmT13980716041001.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 624
     },
@@ -15422,7 +15116,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22823034/2023/4/20/d999be17-93f5-4b9f-afb7-8c9216b369771681964255681CEROUnisexDialStainlessSteelBraceletStyleStrapsAnalogueWatch1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 625
     },
@@ -15444,7 +15138,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22867686/2023/4/24/b0024f66-532c-4ebf-bca6-0429da0ef2951682309543414WATCHSTARWomenMulticolouredDialPinkStainlessSteelStrapsDigit1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 626
     },
@@ -15464,7 +15158,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22483708/2023/4/21/1a803aac-7889-4ddd-a5bb-1ddb52f34d7b1682078936101-Maxima-Rose-Attivo-Ladies-Watch-60400LMLR-7861682078935886-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 627
     },
@@ -15487,7 +15181,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22823044/2023/4/19/fc8230c0-1095-4fef-8c9b-2d4ef99d25821681909609556Watches1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 628
     },
@@ -15509,7 +15203,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22823024/2023/4/19/4ac487d8-c199-4498-a258-d0027e18e88c1681921903543Watches1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 629
     },
@@ -15529,7 +15223,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22744374/2023/4/28/99b3b06e-a9bd-480a-bac5-77e96ff9fe181682674337346TimexWomenBraceletStyleStrapsAnalogueWatchTWEL99SMU081.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 630
     },
@@ -15552,7 +15246,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22901158/2023/4/25/1dd1c4d0-8461-4453-8016-f3674af7dcac168244244962320DressesBlueRectangularSolidSunglassesForWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 631
     },
@@ -15574,7 +15268,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22893048/2023/4/25/1a5fa8bc-1807-47e1-93c4-557948c777631682430671720MAGNEQRectangularShapedGreyPolaroizedUnisexSunglassesMG8774S1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 632
     },
@@ -15596,7 +15290,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22901150/2023/4/25/7e7929bf-286f-4ccd-b939-665c82af60f4168244208273420DressesBrownAnimalPrintCatEyeCasualSunglassesForWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 633
     },
@@ -15618,7 +15312,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22886236/2023/4/25/f2959f3c-8c11-4714-bf16-bd86ec5e03291682410372583MAGNEQSquareShapedBrownPolaroizedUnisexSunglassesMG7366SP3521.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 634
     },
@@ -15641,7 +15335,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22928024/2023/4/28/d5ed2936-bf74-4e0e-8079-f870fe3a34a81682629493941UnisexGreyLensBlackSquareSunglasseswithPolarisedLens1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 635
     },
@@ -15663,7 +15357,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22901206/2023/4/25/fddcbd0a-2c26-4e61-be24-b3ccc667b69a1682442202471UnisexBlackSquareSunglasseswithUVProtectedLens1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 636
     },
@@ -15685,7 +15379,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22901216/2023/4/25/9dd2cd46-c589-442d-a2bb-4710a344eadf1682442171267UnisexYellowRoundSunglasseswithUVProtectedLens-3319OG1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 637
     },
@@ -15708,7 +15402,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22901152/2023/4/25/131baf46-a8d9-4c61-ae12-da6f9b7315fd168244209987220DressesCreamRoundEverydayEssentialSunglassesForWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 638
     },
@@ -15730,7 +15424,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22893032/2023/4/25/7205d2ee-9857-4db6-8930-4020da539f681682430763977MAGNEQSqureShapedUnisexBrownSunglassesMG1626SC155181.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 639
     },
@@ -15750,7 +15444,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22890992/2023/4/25/d0082168-e934-4e94-b665-6718fec1f5121682425624302LevisMirroredAviatorUnisexSunglasses1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 640
     },
@@ -15770,7 +15464,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22848370/2023/4/21/fb8af7fd-5f34-4bf1-aa54-c01b571f350e1682074761678Sunglasses1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 641
     },
@@ -15792,7 +15486,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22905422/2023/4/26/b55e6499-54eb-4f41-bc26-add8420b483a16825289889804125LLaptopBackpackCasualseekachieverwithUSBANDRAINCOVER1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 642
     },
@@ -15812,7 +15506,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22922100/2023/4/27/4f89ff83-d2c8-4101-a518-259e4eef1a611682612971002LeatherSEEKunisexbackpackwithRainCover1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 643
     },
@@ -15832,7 +15526,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22902942/2023/4/26/1497ab0a-2017-4a69-9069-facb29bcb6eb1682493642731TEAKWOODLEATHERSUNISEXBLACKBACKPACKS1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 644
     },
@@ -15855,7 +15549,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22950648/2023/4/29/671f8bda-95e9-4bf8-92e3-47636130e5031682735743310OrangeWhiteUnisexGeometricBackpack1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 645
     },
@@ -15878,7 +15572,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22922106/2023/4/27/95e27c33-1654-4b78-8bfa-26520bf867a61682612977876LaptopBackpackCHALKERSUnisexBackpackWithRainCover1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 646
     },
@@ -15898,7 +15592,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21922152/2023/4/27/ed9a0f62-664e-4eb0-ae41-13f5879bd5501682594263549-Tommy-Hilfiger-Unisex-Backpacks-9741682594262297-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 647
     },
@@ -15918,7 +15612,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22866934/2023/4/24/90db86ff-e3c7-44b8-b469-f7cb9525272c1682346391705Backpacks1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 648
     },
@@ -15938,7 +15632,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22878308/2023/4/24/4916677b-2a98-43d8-87a4-18d2bac47e861682360676623Backpacks1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 649
     },
@@ -15960,7 +15654,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22850206/2023/4/22/33f4eadd-bb9c-4350-aa6e-79c7f0793ec21682185234303UnisexBlackLaptopBackpackandFreeFlowOrganizer1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 650
     },
@@ -15980,7 +15674,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22871496/2023/4/24/32033e86-c8e3-43b0-93eb-440e9498d1551682355149079Backpacks1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 651
     },
@@ -16000,7 +15694,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22878332/2023/4/24/13f4df3e-d7bd-4942-8f6e-f4585cfb09c11682360864558Backpacks1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 652
     },
@@ -16020,7 +15714,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/20802904/2023/4/20/26f61d5d-c914-41f2-9dfb-6cb17cf361d51681984769479-PUMA-Core-Backpack-V2-8631681984768891-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 653
     },
@@ -16040,7 +15734,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22840900/2023/4/21/ecf98529-5a32-491b-9e2c-34beef532bbf1682025052800Backpacks1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 654
     },
@@ -16060,7 +15754,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/20802896/2023/4/20/f0a613dd-ee3a-43d6-9903-26443235048f1681984744110-PUMA-Big-Cat-Laptop-Backpack-1411681984743666-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 655
     },
@@ -16080,7 +15774,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22787696/2023/4/15/d3f96b14-e53c-472d-a94b-843a499fdaaa1681555872396Backpacks1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 656
     },
@@ -16103,7 +15797,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22791888/2023/4/15/8d5faf86-c87d-4296-90cf-e2cb4ad0884d1681579101746UnisexGreyGreenDuffleCumBackPackandFreeFlowOrganizer1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 657
     },
@@ -16123,7 +15817,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22878318/2023/4/24/41590fd5-d736-4d79-a326-abb5049697001682360751195Backpacks1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 658
     },
@@ -16143,7 +15837,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/16361236/2023/4/20/2a7aa829-c26e-49a8-90fc-2b14f4eb83501681981612488-VIP-Unisex-Backpacks-9491681981611920-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 659
     },
@@ -16163,7 +15857,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/20802886/2023/4/20/6733f86a-a2fe-451d-8e28-f1c9c45e15871681984718745-PUMA-Zipper-Laptop-Backpack-1551681984718202-1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 660
     },
@@ -16183,7 +15877,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22833434/2023/4/22/36dcb3c8-c21a-4240-8d99-ebf763e1792d1682160797235THECLOWNFISHWomenBackpackWithEarphoneGate1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 661
     },
@@ -16203,7 +15897,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22878320/2023/4/24/34b8f87f-3d60-4111-ad9b-3382daad84b81682360732547Backpacks1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 662
     },
@@ -16225,7 +15919,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22884836/2023/4/25/7f4eddbd-4c92-4384-8896-a2eed7537e201682402773281WomenBackpackBagforCollegeOfficeWhite1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 663
     },
@@ -16396,7 +16090,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892148/2023/4/25/dbf54e16-333c-4a35-a277-121c3a3d16b71682417297938SweetDreamsWomenSolidAnkleTights1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 671
     },
@@ -16420,7 +16114,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892006/2023/4/25/fffd6ec5-87b8-41a6-81c1-d4d3e85b81401682417321821SweetDreamsWomenSolidAnkleTights1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 672
     },
@@ -16442,8 +16136,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916166/2023/4/27/e40ec29e-a768-4b5c-ba03-38609656944a1682582926644Tights1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 673
     },
     {
@@ -16463,7 +16157,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916158/2023/4/27/59ba4d0b-42dc-4769-a9b9-e3a4343316be1682583624834Tights1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 674
     },
@@ -16484,7 +16178,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22883522/2023/4/24/077f8503-c5c3-438d-a8f1-99f6c15998a71682344242890Tights1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 675
     },
@@ -16508,7 +16202,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892136/2023/4/25/72a5eebc-a044-4e02-9dbe-c5fa146f6dff1682416817739SweetDreamsWomenPrintedPalazzo1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 676
     },
@@ -16530,7 +16224,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22882940/2023/4/24/2fdd7a5c-8bde-4a0f-8034-1cfe4be294241682340527854LoungePants1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 677
     },
@@ -16555,7 +16249,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892106/2023/4/25/690dd76a-9854-4c32-bdb1-232f5dff4e741682417127421SweetDreamsWomenSolidPyjama1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 678
     },
@@ -16580,7 +16274,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22960770/2023/4/29/6a8eb0a1-6b17-48cd-a04b-70bed7c7f42c1682766741412ORGANZAAWomenPrintedCottonNightSuit1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 679
     },
@@ -16604,8 +16298,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892216/2023/4/25/1131b49e-87c8-43ae-bbaa-39c54b3ac1031682416991932SweetDreamsWomenPrinted3piecePyjamaSet1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 680
     },
     {
@@ -16628,7 +16322,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892028/2023/4/25/0dba265a-d730-4c18-ae00-be9b378b9b521682416792466SweetDreamsWomenSolidPyjama1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 681
     },
@@ -16652,7 +16346,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892214/2023/4/25/8084fe2d-2841-40e6-b0d9-88723f290cd61682417185862SweetDreamsWomenSolidPyjama1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 682
     },
@@ -16676,8 +16370,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22892204/2023/4/25/0f6d8702-20bf-4cc7-b736-d5860d489a7b1682417572921SweetDreamsWomenPrintedHalfSleevesPyjamaSet1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 683
     },
     {
@@ -16700,8 +16394,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22950920/2023/4/29/8f7e9656-9ae6-4cd5-8adc-4a11f535eea71682748485914IlikemeWomensSatinNightSuitLilyPurpleFloralEmbroideryShirtPa1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 684
     },
     {
@@ -16724,8 +16418,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22921820/2023/4/27/921fae30-09d9-4698-8319-43b9939514ca1682594448538Nightsuits1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "women",
       "id": 685
     },
     {
@@ -16745,8 +16439,8 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22886050/2023/4/24/81676bde-053e-4b91-92ee-efada49e6ce51682350565430ViimalJonneyCottonCO-ORDSetforWomen1.jpg"
       ],
-      "rating": 0.0,
-      "gender": "unisex",
+      "rating": 0,
+      "gender": "men",
       "id": 686
     },
     {
@@ -16767,7 +16461,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22886086/2023/4/24/ea31f1d1-563e-405c-992d-5514872c726e1682345955051ViimalJonneyCottonCO-ORDSetforWomen1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 687
     },
@@ -16904,7 +16598,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/15564240/2022/5/18/1e195871-e789-45b0-a0d1-bb43877edc471652883162743LilPicksBoysYellowPinkPrintedNightsuit1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "kids",
       "id": 693
     },
@@ -17330,7 +17024,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21943682/2023/2/11/d49f6995-bf1c-441d-8b48-e8e5947b2c831676116234906RiverOfDesignJeansWomenBlueWashedLightweightCropDenimJacket1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 711
     },
@@ -17355,7 +17049,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/14320442/2021/11/23/30db2deb-28af-46d7-bc73-1ea1175f8a351637667507910-Sztori-Men-Jackets-5591637667507076-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "men",
       "id": 712
     },
@@ -17377,7 +17071,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22904048/2023/4/26/540405b3-dbf5-4ec2-bd48-94b04b4e4bb71682499350378Sweaters1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 713
     },
@@ -17444,7 +17138,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22888070/2023/4/25/eb4269a1-ac84-4eb6-abe4-54cb0587b7bb1682406342249Single-breastedjacket1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 716
     },
@@ -17489,7 +17183,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916124/2023/4/27/148f7302-02e1-48dc-9b07-a07d929785e41682583473073Jackets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 718
     },
@@ -17511,7 +17205,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916104/2023/4/27/60405865-6c17-41eb-8a8a-c06c841834cb1682584323365Jackets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 719
     },
@@ -17556,7 +17250,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916106/2023/4/27/da53df60-7b11-45ab-bbc1-53414c82c86c1682583022548Jackets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 721
     },
@@ -17577,7 +17271,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916120/2023/4/27/306aeeb6-e465-422f-8b24-6be915b525331682583521400Jackets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 722
     },
@@ -17693,7 +17387,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916112/2023/4/27/9e1adb15-28b7-4008-99e3-60c873749ea51682584981750Jackets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 727
     },
@@ -17714,7 +17408,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21075962/2022/12/5/28e24f50-2be3-4d58-b29f-f4b9b9153ddb1670237199273ReebokMenColourblockedLonglineSportyJackets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 728
     },
@@ -17736,7 +17430,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21330098/2022/12/28/51d732df-fcd1-4e46-8917-fcb0904b7db71672210097893MensReebokRbkFitnessMStoreStaffTracktop1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 729
     },
@@ -17824,7 +17518,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21578520/2023/1/17/1f09c7ae-1d7f-4868-af27-bc5e6bc1ce6b1673944185677UnisexReebokTrainingZipUpTrackJacket1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 733
     },
@@ -17849,7 +17543,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/20062214/2022/9/18/77dc8bbf-095f-49be-9b76-8f7b301387c01663492966309BlueGiraffeBoysOliveGreenCamouflagePufferJacket1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "kids",
       "id": 734
     },
@@ -17963,7 +17657,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21578540/2023/1/17/861e9df5-3300-4df5-8de6-842f5d3717281673945109901MensReebokTrainingFNDBomberTracktop1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 739
     },
@@ -18008,7 +17702,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22893372/2023/4/25/2f71f25c-399c-4d89-999d-cf24b5b3515f1682431576818Sweaters1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 741
     },
@@ -18029,7 +17723,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916118/2023/4/27/49f41912-49df-4075-b9e6-6af4300df6061682582964202Jackets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 742
     },
@@ -18075,7 +17769,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22925930/2023/4/27/4d541a43-d0b4-46d8-82f2-d3d1cd2bd9611682605131099Jackets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 744
     },
@@ -18123,7 +17817,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/19893460/2022/9/12/9d738362-56f1-4f1c-a97c-d8f6da4e98e91662959376648Cottonjacket1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "kids",
       "id": 746
     },
@@ -18145,7 +17839,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22916126/2023/4/27/4e9c569f-6b4d-4dad-a03a-bcf7efd41b1e1682583892058Jackets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 747
     },
@@ -18215,15 +17909,15 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21014698/2022/12/1/4d2520ea-f37a-4cbf-9cff-d343bea7a1211669883363148MensReebokRbkFitnessMYTWovenJacket1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "men",
       "id": 750
     },
     {
       "title": "Women Shrug",
       "description": "Nimble · 0.0 stars from 0 verified ratings",
-      "category_id": 14,
-      "type_id": 38,
+      "category_id": 7,
+      "type_id": 18,
       "brand": "Nimble",
       "price": 105.62,
       "size": [
@@ -18237,7 +17931,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22942018/2023/4/28/fe7ade39-3933-41b6-9aa4-bd1c4f3a70db1682690206784NimbleWomenSkyBlueSolidOpenFrontShrug1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "women",
       "id": 751
     },
@@ -18349,7 +18043,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22852040/2023/4/21/f0aa0413-de5a-4cd3-8699-3309c95965791682092636264Bedsheets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 756
     },
@@ -18372,7 +18066,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22852114/2023/4/21/be606b91-36a8-4da5-a88d-6b4b5cdadaf91682093614849Bedsheets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 757
     },
@@ -18395,7 +18089,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/17357094/2022/3/3/d9e314b7-3073-4114-a0a3-391f3bb1a5d61646284310050MarksSpencerUnisexPurpleBedsheets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 758
     },
@@ -18529,7 +18223,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22788936/2023/4/15/29405454-efe5-4200-8bc0-e0da7ce538591681563230306HammerHomeMicrofiberStripedFlat1Bedsheetwith2Pillowcover1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 764
     },
@@ -18574,7 +18268,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/17357106/2022/3/3/1d41e5c0-e633-47d7-bb4b-8846f4a39ba51646284375433MarksSpencerUnisexCreamBedsheets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 766
     },
@@ -18819,7 +18513,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/21990984/2023/2/15/bb400a68-722e-49b2-828f-09fb31f3c7ee1676459489124Bedsheets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 777
     },
@@ -18887,7 +18581,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/13782454/2021/11/12/4bd93aad-ebf4-4148-80d6-8cd5ba70c7de1636714205118FloridaBlueLavenderFloral144TCPolycotton1KingBedsheetwith2Pi1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "unisex",
       "id": 780
     },
@@ -18910,7 +18604,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22852016/2023/4/21/71abee8a-f50e-4d6b-abe7-e5d94fe2cdf71682091175772Bedsheets1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 781
     },
@@ -19024,7 +18718,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22009854/2023/2/16/5b588ff7-d52d-48a4-a65d-44165daa3b601676560664343Bedsheets1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "unisex",
       "id": 786
     },
@@ -19137,7 +18831,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/20155950/2022/9/24/3b6019ed-62b0-420a-87c3-71470bda50951664017661844DDecorOrangePlainSmallRug-ONYX-71441-121.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 791
     },
@@ -19160,7 +18854,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/18557238/2022/6/2/63013958-9785-4853-a7ae-d8a8693c0fd31654160263069DdecorLivebeautiful-MULTI-Polypropylene-Small-RUG-AUSTIN1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "unisex",
       "id": 792
     },
@@ -19807,7 +19501,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22720490/2023/4/10/8903c9f7-e6fa-42bc-af8d-9c40411bbe1416811494651352-piececottonset1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "kids",
       "id": 821
     },
@@ -19999,7 +19693,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/17365988/2022/3/3/7fe3ce81-6d5a-4bcf-af4e-0b27acaa3c831646316116958AWWHUNNIEGreenDress1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "kids",
       "id": 829
     },
@@ -20142,7 +19836,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22546572/2023/3/29/3c9584be-3eb6-4af0-a244-0c8d2aca96091680030870899ClothingSet1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "kids",
       "id": 835
     },
@@ -20234,7 +19928,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/productimage/2020/1/3/3ea85131-aa26-42ca-aa79-1300920e9eb11578009313702-1.jpg"
       ],
-      "rating": 4.0,
+      "rating": 4,
       "gender": "kids",
       "id": 839
     },
@@ -20303,7 +19997,7 @@
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_2.0,q_80,w_720,c_limit,fl_progressive/assets/images/22447092/2023/3/21/a0aa262b-a117-4b60-9e0c-8b5cff6d921d16793761091952-piecesetwithbraces1.jpg"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "gender": "kids",
       "id": 842
     },
