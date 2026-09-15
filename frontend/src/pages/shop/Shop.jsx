@@ -8,6 +8,7 @@ import Categories from "../../components/filters/Categories";
 import Sizes from "../../components/filters/Sizes";
 import Colors from "../../components/filters/Colors";
 import Prices from "../../components/filters/Prices";
+import Loader from "../../components/common/Loader";
 
 export default function Shop() {
   const allProducts = catalog.products;
@@ -17,6 +18,7 @@ export default function Shop() {
   const [selectedColors, setSelectedColors] = useState([]);
   const [selectedSizes, setSelectedSizes] = useState([]);
   const [priceRange, setPriceRange] = useState(null);
+  const [pendingId, setPendingId] = useState(null);
 
   const toggleType = (id) =>
     setSelectedTypes((prev) =>
@@ -167,30 +169,42 @@ export default function Shop() {
                 {products.map((product) => (
                   <li
                     key={product.id}
-                    className="overflow-hidden rounded-lg border border-neutral-200 bg-white"
+                    className="relative overflow-hidden rounded-lg border border-neutral-200 bg-white transition-shadow hover:shadow-md"
                   >
-                    <img
-                      src={product.thumbnail}
-                      alt={product.title}
-                      loading="lazy"
-                      onError={(e) => {
-                        const t = e.currentTarget;
-                        t.onerror = null;
-                        t.src = `https://picsum.photos/seed/stardust-${product.id}/600/750`;
-                      }}
-                      className="aspect-[4/5] w-full object-cover"
-                    />
-                    <div className="p-3">
-                      <p className="font-barlow text-[11px] font-semibold uppercase tracking-[0.15em] text-neutral-400">
-                        {product.brand}
-                      </p>
-                      <h2 className="mt-0.5 truncate font-barlow text-sm font-semibold lowercase text-neutral-800">
-                        {product.title}
-                      </h2>
-                      <p className="mt-0.5 font-barlow text-xs uppercase text-neutral-600">
-                        R {product.price.toFixed(2)}
-                      </p>
-                    </div>
+                    <Link
+                      to={`/product/${product.id}`}
+                      onClick={() => setPendingId(product.id)}
+                      aria-label={`view ${product.title}`}
+                      className="block"
+                    >
+                      <img
+                        src={product.thumbnail}
+                        alt={product.title}
+                        loading="lazy"
+                        onError={(e) => {
+                          const t = e.currentTarget;
+                          t.onerror = null;
+                          t.src = `https://picsum.photos/seed/stardust-${product.id}/600/750`;
+                        }}
+                        className="aspect-[4/5] w-full object-cover"
+                      />
+                      <div className="p-3">
+                        <p className="font-barlow text-[11px] font-semibold uppercase tracking-[0.15em] text-neutral-400">
+                          {product.brand}
+                        </p>
+                        <h2 className="mt-0.5 truncate font-barlow text-sm font-semibold lowercase text-neutral-800">
+                          {product.title}
+                        </h2>
+                        <p className="mt-0.5 font-barlow text-xs uppercase text-neutral-600">
+                          R {product.price.toFixed(2)}
+                        </p>
+                      </div>
+                    </Link>
+                    {pendingId === product.id && (
+                      <div className="absolute inset-0 flex items-center justify-center bg-white/80">
+                        <Loader label="loading..." />
+                      </div>
+                    )}
                   </li>
                 ))}
               </ul>
