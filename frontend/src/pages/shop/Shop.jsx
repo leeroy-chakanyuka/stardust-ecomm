@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import Navigation from "../../components/navigation/Navigation";
 import Footer from "../../components/footer/Footer";
 import catalog from "../../data/categories.json";
-import { GENDERS, getTypeLabel, priceBoundsFor } from "../../data/taxonomy";
+import { GENDERS, SIZE_GROUPS, getTypeLabel, priceBoundsFor } from "../../data/taxonomy";
 import Categories from "../../components/filters/Categories";
+import Sizes from "../../components/filters/Sizes";
 import Colors from "../../components/filters/Colors";
 import Prices from "../../components/filters/Prices";
 
@@ -14,6 +15,7 @@ export default function Shop() {
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedGenders, setSelectedGenders] = useState([]);
   const [selectedColors, setSelectedColors] = useState([]);
+  const [selectedSizes, setSelectedSizes] = useState([]);
   const [priceRange, setPriceRange] = useState(null);
 
   const toggleType = (id) =>
@@ -29,6 +31,11 @@ export default function Shop() {
   const toggleColor = (id) =>
     setSelectedColors((prev) =>
       prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id],
+    );
+
+  const toggleSize = (id) =>
+    setSelectedSizes((prev) =>
+      prev.includes(id) ? prev.filter((s) => s !== id) : [...prev, id],
     );
 
   /* map every type id to its display name, so shop-all can list types */
@@ -73,13 +80,29 @@ export default function Shop() {
     .map(([name, count]) => ({ id: name, name, count }))
     .sort((a, b) => a.name.localeCompare(b.name));
 
-  /* apply the checked type + gender + color + price filters, if any */
+  /* size sections present in the full list */
+  const sizeCounts = {};
+  allProducts.forEach((p) => {
+    (p.size || []).forEach((s) => {
+      sizeCounts[s] = (sizeCounts[s] ?? 0) + 1;
+    });
+  });
+  const availableSizeGroups = SIZE_GROUPS.map((g) => ({
+    ...g,
+    types: g.sizes
+      .filter((s) => (sizeCounts[s] ?? 0) > 0)
+      .map((s) => ({ id: s, name: s, count: sizeCounts[s] })),
+  })).filter((g) => g.types.length > 0);
+
+  /* apply the checked type + gender + color + size + price filters, if any */
   const products = allProducts.filter(
     (p) =>
       (selectedTypes.length === 0 || selectedTypes.includes(p.type_id)) &&
       (selectedGenders.length === 0 || selectedGenders.includes(p.gender)) &&
       (selectedColors.length === 0 ||
         (p.color || []).some((c) => selectedColors.includes(c))) &&
+      (selectedSizes.length === 0 ||
+        (p.size || []).some((s) => selectedSizes.includes(s))) &&
       (!priceRange || (p.price >= priceRange[0] && p.price <= priceRange[1])),
   );
 
@@ -125,6 +148,12 @@ export default function Shop() {
               selected={selectedColors}
               onToggle={toggleColor}
               onClear={() => setSelectedColors([])}
+            />
+            <Sizes
+              groups={availableSizeGroups}
+              selected={selectedSizes}
+              onToggle={toggleSize}
+              onClear={() => setSelectedSizes([])}
             />
           </aside>
 
