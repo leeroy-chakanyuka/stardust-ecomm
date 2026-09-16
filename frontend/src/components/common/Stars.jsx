@@ -40,8 +40,6 @@ function formatCount(n) {
 }
 
 /**
- * Stars — zero-dependency rating display + input.
- *
  * Display uses a two-layer overflow technique (empty row behind, filled row
  * clipped on top by percentage), so ANY fractional value (4.3, 3.7, 2.5…)
  * renders pixel-perfect partial fill — no half-star icon swapping.

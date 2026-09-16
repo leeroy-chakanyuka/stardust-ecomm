@@ -15,6 +15,9 @@ dist-ssr
 # Local-only design palette (personal reference, not committed)
 palette.json
 
+# Personal notes / drafts (not committed)
+notes/
+
 src/data/dumps/
 scripts/import_myntra.py
 scripts/__pycache__/

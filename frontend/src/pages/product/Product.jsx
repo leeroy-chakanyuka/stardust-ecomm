@@ -1,11 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
-import { useLoaderData, useNavigate, useNavigation } from "react-router-dom";
+import {
+  Link,
+  useLoaderData,
+  useNavigate,
+  useNavigation,
+} from "react-router-dom";
 import Navigation from "../../components/navigation/Navigation";
 import Footer from "../../components/footer/Footer";
 import Loader from "../../components/common/Loader";
 import Stars from "../../components/common/Stars";
 import ArrowIcon from "../../components/common/ArrowIcon";
 import { COLOR_HEX } from "../../data/taxonomy";
+import { isDiscounted, originalPrice } from "../../data/discount";
 
 /* we'll randomly cycle through these colors when there arent extra images */
 const STARDUST_PALETTE = [
@@ -95,7 +101,7 @@ function buildGallery(product) {
 }
 
 export default function Product() {
-  const { product, categoryName } = useLoaderData();
+  const { product, categoryName, categoryPath, related } = useLoaderData();
   const navigate = useNavigate();
   const navigation = useNavigation();
   const isLoading = navigation.state === "loading";
@@ -129,6 +135,7 @@ export default function Product() {
 
   const activeSlide = gallery[activeImage] ?? gallery[0];
   const reviewCount = parseReviewCount(product?.description);
+  const was = originalPrice(product);
   const details = [
     ["brand", product?.brand],
     ["category", categoryName],
@@ -151,6 +158,7 @@ export default function Product() {
         {isLoading ? (
           <Loader label="loading product..." />
         ) : (
+          <>
           <div className="mt-4 grid gap-6 lg:grid-cols-2">
             <div className="flex gap-3">
               {/* Thumbnail Strip: Always 4+ slides */}
@@ -254,9 +262,21 @@ export default function Product() {
                 />
               </div>
 
-              <p className="mt-3 font-barlow text-2xl font-semibold uppercase text-neutral-800">
-                R {product?.price?.toFixed(2)}
-              </p>
+              <div className="mt-3 flex flex-wrap items-baseline gap-2">
+                <p className="font-barlow text-2xl font-semibold uppercase text-neutral-800">
+                  R {product?.price?.toFixed(2)}
+                </p>
+                {was && (
+                  <p className="font-barlow text-base text-neutral-400 line-through">
+                    R {was.toFixed(2)}
+                  </p>
+                )}
+                {was && product?.discount ? (
+                  <span className="rounded-full bg-rose-50 px-2.5 py-0.5 font-barlow text-xs font-bold uppercase tracking-wider text-rose-600">
+                    save {product.discount}%
+                  </span>
+                ) : null}
+              </div>
 
               <div className="mt-6 space-y-2 border-t border-neutral-100 pt-6">
                 <p className={LABEL_CLASS}>details</p>
@@ -354,6 +374,76 @@ export default function Product() {
               </button>
             </div>
           </div>
+
+          {/* recommended */}
+          {related?.length > 0 && (
+            <section aria-label="recommended products" className="mt-12">
+              <div className="flex items-end justify-between gap-4">
+                <div>
+                  <p className="font-barlow text-xs font-semibold uppercase tracking-[0.2em] text-rose-500">
+                    complete the look
+                  </p>
+                  <h2 className="mt-1 font-display text-3xl font-semibold lowercase tracking-tight text-neutral-800">
+                    you may also like
+                  </h2>
+                </div>
+                <Link
+                  to={categoryPath ?? "/shop"}
+                  className="shrink-0 font-barlow text-base font-semibold lowercase tracking-wider text-rose-500 transition-colors hover:text-rose-600"
+                >
+                  more {categoryName} →
+                </Link>
+              </div>
+              <ul className="mt-5 grid list-none grid-cols-2 gap-2.5 p-0 sm:grid-cols-3 sm:gap-3 lg:grid-cols-4">
+                {related.map((item) => (
+                  <li
+                    key={item.id}
+                    className="group relative overflow-hidden rounded-lg border border-neutral-200 bg-white transition-shadow hover:shadow-md"
+                  >
+                    <Link
+                      to={`/product/${item.id}`}
+                      aria-label={`view ${item.title}`}
+                      className="block"
+                    >
+                      <div className="relative">
+                        <img
+                          src={item.thumbnail}
+                          alt={item.title}
+                          loading="lazy"
+                          onError={(e) => {
+                            const t = e.currentTarget;
+                            t.onerror = null;
+                            t.src = fallbackSrc(item.id);
+                          }}
+                          className="aspect-[4/5] w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                        />
+                        {isDiscounted(item) && item.discount ? (
+                          <span className="absolute top-2 left-2 rounded-full bg-rose-500 px-2 py-0.5 font-barlow text-[11px] font-bold uppercase text-white">
+                            -{item.discount}%
+                          </span>
+                        ) : null}
+                      </div>
+                      <div className="p-3">
+                        <p className="font-barlow text-[11px] font-semibold uppercase tracking-[0.15em] text-neutral-400">
+                          {item.brand}
+                        </p>
+                        <h3 className="mt-0.5 truncate font-barlow text-sm font-semibold lowercase text-neutral-800">
+                          {item.title}
+                        </h3>
+                        <div className="mt-1 flex items-center justify-between gap-2">
+                          <p className="font-barlow text-xs uppercase text-neutral-600">
+                            R {Number(item.price).toFixed(2)}
+                          </p>
+                          <Stars value={item.rating} size={12} />
+                        </div>
+                      </div>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+          </>
         )}
       </main>
       <Footer />

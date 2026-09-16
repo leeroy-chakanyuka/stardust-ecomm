@@ -9,6 +9,8 @@ import Sizes from "../../components/filters/Sizes";
 import Colors from "../../components/filters/Colors";
 import Prices from "../../components/filters/Prices";
 import Loader from "../../components/common/Loader";
+import Stars from "../../components/common/Stars";
+import { originalPrice } from "../../data/discount";
 
 export default function Shop() {
   const allProducts = catalog.products;
@@ -166,7 +168,9 @@ export default function Shop() {
               </p>
             ) : (
               <ul className="grid list-none grid-cols-2 gap-2.5 p-0 sm:grid-cols-3 sm:gap-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
-                {products.map((product) => (
+                {products.map((product) => {
+                  const was = originalPrice(product);
+                  return (
                   <li
                     key={product.id}
                     className="relative overflow-hidden rounded-lg border border-neutral-200 bg-white transition-shadow hover:shadow-md"
@@ -177,17 +181,24 @@ export default function Shop() {
                       aria-label={`view ${product.title}`}
                       className="block"
                     >
-                      <img
-                        src={product.thumbnail}
-                        alt={product.title}
-                        loading="lazy"
-                        onError={(e) => {
-                          const t = e.currentTarget;
-                          t.onerror = null;
-                          t.src = `https://picsum.photos/seed/stardust-${product.id}/600/750`;
-                        }}
-                        className="aspect-[4/5] w-full object-cover"
-                      />
+                      <div className="relative">
+                        <img
+                          src={product.thumbnail}
+                          alt={product.title}
+                          loading="lazy"
+                          onError={(e) => {
+                            const t = e.currentTarget;
+                            t.onerror = null;
+                            t.src = `https://picsum.photos/seed/stardust-${product.id}/600/750`;
+                          }}
+                          className="aspect-[4/5] w-full object-cover"
+                        />
+                        {was && product.discount ? (
+                          <span className="absolute top-2 left-2 rounded-full bg-rose-500 px-2 py-0.5 font-barlow text-[11px] font-bold uppercase text-white">
+                            -{product.discount}%
+                          </span>
+                        ) : null}
+                      </div>
                       <div className="p-3">
                         <p className="font-barlow text-[11px] font-semibold uppercase tracking-[0.15em] text-neutral-400">
                           {product.brand}
@@ -195,9 +206,19 @@ export default function Shop() {
                         <h2 className="mt-0.5 truncate font-barlow text-sm font-semibold lowercase text-neutral-800">
                           {product.title}
                         </h2>
-                        <p className="mt-0.5 font-barlow text-xs uppercase text-neutral-600">
-                          R {product.price.toFixed(2)}
-                        </p>
+                        <div className="mt-1">
+                          <Stars value={product.rating} size={12} />
+                        </div>
+                        <div className="mt-0.5 flex items-baseline gap-1.5">
+                          <p className="font-barlow text-xs uppercase text-neutral-600">
+                            R {product.price.toFixed(2)}
+                          </p>
+                          {was && (
+                            <p className="font-barlow text-[11px] text-neutral-400 line-through">
+                              R {was.toFixed(2)}
+                            </p>
+                          )}
+                        </div>
                       </div>
                     </Link>
                     {pendingId === product.id && (
@@ -206,7 +227,8 @@ export default function Shop() {
                       </div>
                     )}
                   </li>
-                ))}
+                  );
+                })}
               </ul>
             )}
             <Link
