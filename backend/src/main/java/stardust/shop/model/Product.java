@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import stardust.shop.enums.Gender;
+import stardust.shop.enums.Size;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
