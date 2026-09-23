@@ -19,7 +19,7 @@ import java.util.UUID;
 public class Category {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID uuid;
 
     @Column(nullable = false)
