@@ -1,9 +1,6 @@
 package stardust.shop.service;
 
 import lombok.RequiredArgsConstructor;
-import org.jspecify.annotations.Nullable;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations;
 import org.springframework.stereotype.Service;
 import stardust.shop.dto.CategoryDto;
 import stardust.shop.dto.CategorytTypeDto;
@@ -13,7 +10,6 @@ import stardust.shop.repository.CategoryRepository;
 
 import java.util.List;
 import java.util.UUID;
-import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @Service
@@ -77,6 +73,20 @@ public class CategoryService {
 
     }
 
+    public CategoryDto updateCategory(CategoryDto categoryDto, UUID uuid) {
+        /* does it exist? */
+        Category current = categoryRepository.findById(uuid).orElseThrow();
+
+        /* the new one */
+        Category updated = mapToCategoryEntity(categoryDto);
+
+        /* dont forget to update refferences */
+        for (CategoryType categoryType : updated.getCategoryTypes()) {
+            categoryType.setCategory(updated);
+        }
+
+        return mapToCategoryDto(categoryRepository.save(updated));
+    }
 
     public CategoryDto createCategory(CategoryDto categoryDto){
         Category cat = mapToCategoryEntity(categoryDto);
@@ -90,5 +100,10 @@ public class CategoryService {
         return mapToCategoryDto(categoryRepository.save(cat));
     }
 
+    public CategoryDto deleteCategory(UUID uuid){
+        Category current = categoryRepository.findById(uuid).orElseThrow();
+        categoryRepository.delete(current);
+        return mapToCategoryDto(current);
+    }
 
 }

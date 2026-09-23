@@ -33,7 +33,16 @@ public class CategoryController {
     @PostMapping("/add")
     public ResponseEntity<CategoryDto> addCategory(@RequestBody CategoryDto categoryDto){
         return ResponseEntity.ok(categoryService.createCategory(categoryDto));
+    }
 
+    @PutMapping("/add/{id}")
+    public ResponseEntity<CategoryDto> updateCategory(@RequestBody CategoryDto categoryDto, @PathVariable("id") UUID uuid){
+        return ResponseEntity.ok(categoryService.updateCategory(categoryDto, uuid));
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<CategoryDto> deleteCategory(@PathVariable("id") UUID uuid){
+        return ResponseEntity.ok(categoryService.deleteCategory(uuid));
     }
 
 }
