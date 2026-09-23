@@ -74,12 +74,7 @@ public class Product {
     @Builder.Default
     private List<Size> sizes = new ArrayList<>();
 
-    /** Available colors — open set ("Green", "Mint"), display hex lives in frontend taxonomy. */
-    @ElementCollection
-    @CollectionTable(name = "product_colors", joinColumns = @JoinColumn(name = "product_id"))
-    @Column(name = "color", nullable = false)
-    @Builder.Default
-    private List<String> colors = new ArrayList<>();
+    /* we wouldn't need to keep a colors list as the colors are in the product variant, we just grab from there*/
 
     @Column(nullable = false, updatable = false)
     private LocalDateTime createdAt;
