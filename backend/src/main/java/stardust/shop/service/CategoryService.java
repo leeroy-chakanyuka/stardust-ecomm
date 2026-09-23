@@ -13,12 +13,13 @@ import java.util.UUID;
 
 @RequiredArgsConstructor
 @Service
-public class CategoryService {
+public class CategoryService implements ICategoryService {
 
-
+    // TODO : BETTER VALIDATION AND ERROR HANDLING
     private final  CategoryRepository categoryRepository;
 
-    public List<CategoryDto> getCategories(){
+    @Override
+    public List<CategoryDto> getAll(){
         List<Category> categories = categoryRepository.findAll();
         List<CategoryDto> categoryDtos = categories.stream()
                 .map(category -> mapToCategoryDto(category)).toList();
@@ -26,7 +27,8 @@ public class CategoryService {
         return categoryDtos;
     }
 
-    public CategoryDto getCategory(UUID uuid) {
+    @Override
+    public CategoryDto getById(UUID uuid) {
         return mapToCategoryDto(categoryRepository.findById(uuid).orElse(null));
     }
 
@@ -73,7 +75,8 @@ public class CategoryService {
 
     }
 
-    public CategoryDto updateCategory(CategoryDto categoryDto, UUID uuid) {
+    @Override
+    public CategoryDto update(CategoryDto categoryDto, UUID uuid) {
         /* does it exist? */
         Category current = categoryRepository.findById(uuid).orElseThrow();
 
@@ -88,7 +91,8 @@ public class CategoryService {
         return mapToCategoryDto(categoryRepository.save(updated));
     }
 
-    public CategoryDto createCategory(CategoryDto categoryDto){
+    @Override
+    public CategoryDto create(CategoryDto categoryDto){
         Category cat = mapToCategoryEntity(categoryDto);
 
         /* this was causing an insert bug where the cat_type would not refer to the category, so we loop over
@@ -100,10 +104,10 @@ public class CategoryService {
         return mapToCategoryDto(categoryRepository.save(cat));
     }
 
-    public CategoryDto deleteCategory(UUID uuid){
+    @Override
+    public void delete(UUID uuid){
         Category current = categoryRepository.findById(uuid).orElseThrow();
         categoryRepository.delete(current);
-        return mapToCategoryDto(current);
     }
 
 }

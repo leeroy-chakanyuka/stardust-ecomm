@@ -17,32 +17,33 @@ import java.util.UUID;
 @RequestMapping("api/category")
 public class CategoryController {
 
-
+    // TODO : MORE ERROR HANDLING AND CLEARER MESSAGES
     private final CategoryService categoryService;
 
     @GetMapping("/get/{id}")
     public ResponseEntity<CategoryDto> getCategoryById(@PathVariable("id") UUID id){
-        return ResponseEntity.ok(categoryService.getCategory(id));
+        return ResponseEntity.ok(categoryService.getById(id));
     }
 
     @GetMapping("/get/all")
     public ResponseEntity<List<CategoryDto>> getCategories(){
-        return ResponseEntity.ok(categoryService.getCategories());
+        return ResponseEntity.ok(categoryService.getAll());
     }
 
     @PostMapping("/add")
     public ResponseEntity<CategoryDto> addCategory(@RequestBody CategoryDto categoryDto){
-        return ResponseEntity.ok(categoryService.createCategory(categoryDto));
+        return ResponseEntity.ok(categoryService.create(categoryDto));
     }
 
     @PutMapping("/add/{id}")
     public ResponseEntity<CategoryDto> updateCategory(@RequestBody CategoryDto categoryDto, @PathVariable("id") UUID uuid){
-        return ResponseEntity.ok(categoryService.updateCategory(categoryDto, uuid));
+        return ResponseEntity.ok(categoryService.update(categoryDto, uuid));
     }
 
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<CategoryDto> deleteCategory(@PathVariable("id") UUID uuid){
-        return ResponseEntity.ok(categoryService.deleteCategory(uuid));
+    public ResponseEntity<?> deleteCategory(@PathVariable("id") UUID uuid){
+        categoryService.delete(uuid);
+        return ResponseEntity.noContent().build();
     }
 
 }
