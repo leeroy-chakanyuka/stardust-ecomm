@@ -77,18 +77,33 @@ public class CategoryService implements ICategoryService {
 
     @Override
     public CategoryDto update(CategoryDto categoryDto, UUID uuid) {
+
         /* does it exist? */
-        Category current = categoryRepository.findById(uuid).orElseThrow();
+        Category current = categoryRepository.findById(uuid)
+                .orElseThrow();
 
-        /* the new one */
-        Category updated = mapToCategoryEntity(categoryDto);
+        /* update the existing one */
+        current.setName(categoryDto.name());
+        current.setCode(categoryDto.code());
+        current.setPath(categoryDto.path());
+        current.setDescription(categoryDto.description());
 
-        /* dont forget to update refferences */
-        for (CategoryType categoryType : updated.getCategoryTypes()) {
-            categoryType.setCategory(updated);
+        /* replace category types */
+        current.getCategoryTypes().clear();
+
+        List<CategoryType> types =
+                mapToCategoryTypesEntity(categoryDto.categoryTypes());
+
+        /* update references */
+        for (CategoryType categoryType : types) {
+            categoryType.setCategory(current);
         }
 
-        return mapToCategoryDto(categoryRepository.save(updated));
+        current.getCategoryTypes().addAll(types);
+
+        return mapToCategoryDto(
+                categoryRepository.save(current)
+        );
     }
 
     @Override

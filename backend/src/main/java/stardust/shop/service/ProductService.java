@@ -5,6 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import stardust.shop.dto.ProductDto;
 import stardust.shop.dto.ProductVariantDto;
+import stardust.shop.model.Category;
+import stardust.shop.model.CategoryType;
 import stardust.shop.model.Product;
 import stardust.shop.model.ProductVariant;
 import stardust.shop.repository.CategoryRepository;
@@ -37,14 +39,27 @@ public class ProductService implements iProductService {
                 .images(dto.images())
                 .rating(dto.rating())
                 .gender(dto.gender())
-                .category(categoryRepository.findById(dto.categoryID()).orElseThrow())
-                .type(categoryTypeRepository.findById(dto.categoryTypeID()).orElseThrow())
                 .build();
+
+        product.setCategory( categoryRepository.findById(dto.categoryID()).orElse(null));
+        product.setType(categoryTypeRepository.findById(dto.categoryTypeID()).orElse(null));
 
         return product;
     }
 
     public ProductDto mapToProductDto(Product product) {
+
+        /* category and category type may be null*/
+        UUID categoryUuid = null;
+        if (product.getCategory() != null) {
+            categoryUuid = product.getCategory().getUuid();
+        }
+
+        UUID categoryTypeUuid = null;
+        if (product.getType() != null) {
+            categoryTypeUuid = product.getType().getUuid();
+        }
+
         return new ProductDto(
                 product.getUuid(),
                 product.getName(),
@@ -52,8 +67,8 @@ public class ProductService implements iProductService {
                 product.getPrice(),
                 product.getBrand(),
                 product.isNewArrival(),
-                product.getCategory().getUuid(),
-                product.getType().getUuid(),
+                categoryUuid,
+                categoryTypeUuid,
                 product.getDiscount(),
                 product.getThumbnail(),
                 product.getImages(),
@@ -93,10 +108,37 @@ public class ProductService implements iProductService {
     }
 
     @Override
-    public ProductDto update(ProductDto productDto, UUID uuid) {
-        Product prod = productRepository.findById(uuid).orElseThrow();
-        return mapToProductDto( productRepository.save(prod));
+    public ProductDto update(ProductDto dto, UUID uuid) {
+        Product product = productRepository.findById(uuid)
+                .orElseThrow();
 
+        Category category = categoryRepository.findById(dto.categoryID())
+                .orElseThrow();
+
+        CategoryType categoryType = categoryTypeRepository.findById(dto.categoryTypeID())
+                .orElseThrow();
+
+        if (!categoryType.getCategory().getUuid().equals(category.getUuid())) {
+            throw new IllegalArgumentException(
+                    "Category type does not belong to the selected category"
+            );
+        }
+
+        product.setName(dto.name());
+        product.setDescription(dto.description());
+        product.setPrice(dto.price());
+        product.setBrand(dto.brand());
+        product.setNewArrival(dto.isNewArrival());
+        product.setDiscount(dto.discount());
+        product.setThumbnail(dto.thumbnail());
+        product.setImages(dto.images());
+        product.setRating(dto.rating());
+        product.setGender(dto.gender());
+
+        product.setCategory(category);
+        product.setType(categoryType);
+
+        return mapToProductDto(productRepository.save(product));
     }
 
     @Override
