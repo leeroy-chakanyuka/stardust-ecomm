@@ -1,6 +1,7 @@
 package stardust.shop.service;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import stardust.shop.dto.CategoryDto;
 import stardust.shop.dto.CategorytTypeDto;
@@ -19,8 +20,8 @@ public class CategoryService implements ICategoryService {
     private final  CategoryRepository categoryRepository;
 
     @Override
-    public List<CategoryDto> getAll(){
-        List<Category> categories = categoryRepository.findAll();
+    public List<CategoryDto> getAll(Pageable pageable){
+        List<Category> categories = categoryRepository.findAll(pageable).getContent();
         List<CategoryDto> categoryDtos = categories.stream()
                 .map(category -> mapToCategoryDto(category)).toList();
 

@@ -2,6 +2,7 @@ package stardust.shop.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import stardust.shop.dto.ProductDto;
 import stardust.shop.dto.ProductVariantDto;
@@ -90,8 +91,8 @@ public class ProductService implements iProductService {
     }
 
     @Override
-    public List<ProductDto> getAll() {
-        List<Product> products = productRepository.findAll();
+    public List<ProductDto> getAll(Pageable pageable) {
+        List<Product> products = productRepository.findAll(pageable).getContent();
         return products.stream().map(this::mapToProductDto).toList();
     }
 
