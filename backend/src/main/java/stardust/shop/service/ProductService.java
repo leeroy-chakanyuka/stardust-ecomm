@@ -30,6 +30,7 @@ public class ProductService implements iProductService {
 
     public Product mapToProductEntity(ProductDto dto) {
         Product product = Product.builder()
+                .legacyId(dto.legacyId())
                 .name(dto.name())
                 .description(dto.description())
                 .price(dto.price())
@@ -40,6 +41,7 @@ public class ProductService implements iProductService {
                 .images(dto.images())
                 .rating(dto.rating())
                 .gender(dto.gender())
+                .sizes(dto.sizes() != null ? dto.sizes() : new java.util.ArrayList<>())
                 .build();
 
         product.setCategory( categoryRepository.findById(dto.categoryID()).orElse(null));
@@ -63,6 +65,7 @@ public class ProductService implements iProductService {
 
         return new ProductDto(
                 product.getUuid(),
+                product.getLegacyId(),
                 product.getName(),
                 product.getDescription(),
                 product.getPrice(),
@@ -75,6 +78,7 @@ public class ProductService implements iProductService {
                 product.getImages(),
                 product.getRating(),
                 product.getGender(),
+                product.getSizes(),
                 product.getProductVariants().stream()
                         .map(this::mapToProductVariantDto)
                         .toList()
@@ -130,11 +134,13 @@ public class ProductService implements iProductService {
         product.setPrice(dto.price());
         product.setBrand(dto.brand());
         product.setNewArrival(dto.isNewArrival());
+        product.setLegacyId(dto.legacyId());
         product.setDiscount(dto.discount());
         product.setThumbnail(dto.thumbnail());
         product.setImages(dto.images());
         product.setRating(dto.rating());
         product.setGender(dto.gender());
+        product.setSizes(dto.sizes() != null ? dto.sizes() : new java.util.ArrayList<>());
 
         product.setCategory(category);
         product.setType(categoryType);
