@@ -3,6 +3,7 @@ package stardust.shop.controller;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -27,7 +28,17 @@ public class CategoryController {
     }
 
     @GetMapping("/get/all")
-    public ResponseEntity<List<CategoryDto>> getCategories(@RequestParam int pageNo, @RequestParam int pageSize){
+    public ResponseEntity<List<CategoryDto>> getCategories(@RequestParam int pageNo,
+                                                           @RequestParam int pageSize,
+                                                           @RequestParam String sortBy,
+                                                           @RequestParam String sortOrder
+    ){
+        Sort sort = null;
+        if(sortOrder.equalsIgnoreCase("asc")){
+            sort = Sort.by(sortBy).ascending();
+        }else{
+            sort = Sort.by(sortBy).descending();
+        }
         /* page numbers will be counted from one so -1 */
         return ResponseEntity.ok(categoryService.getAll(PageRequest.of(pageNo-1, pageSize)));
     }

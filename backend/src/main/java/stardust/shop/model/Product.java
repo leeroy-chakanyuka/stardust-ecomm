@@ -26,7 +26,7 @@ public class Product {
     @Id
     private UUID uuid;
 
-    /** Original int id from categories.json / gallery-manifest.json. Null for newly created products. */
+    /** Original int id from categories.json. Null for newly created products. */
     @Column(name = "legacy_id", unique = true)
     private Integer legacyId;
 

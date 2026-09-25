@@ -3,6 +3,7 @@ package stardust.shop.controller;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import stardust.shop.dto.CategoryDto;
@@ -22,8 +23,19 @@ public class ProductController {
     private final ProductService productService;
 
     @GetMapping("/get/all")
-    public ResponseEntity<List<ProductDto>> getAll(@RequestParam(required = false, defaultValue = "1") int pageNo, @RequestParam(required = false, defaultValue = "25") int pageSize){
-        return ResponseEntity.ok(productService.getAll(PageRequest.of(pageNo, pageSize)));
+    public ResponseEntity<List<ProductDto>> getAll(
+            @RequestParam(required = false, defaultValue = "1") int pageNo,
+            @RequestParam(required = false, defaultValue = "25") int pageSize,
+            @RequestParam String sortBy,
+            @RequestParam String sortOrder
+    ){
+        Sort sort = null;
+        if(sortOrder.equalsIgnoreCase("asc")){
+            sort = Sort.by(sortBy).ascending();
+        }else{
+            sort = Sort.by(sortBy).descending();
+        }
+        return ResponseEntity.ok(productService.getAll(PageRequest.of(pageNo, pageSize, sort)));
     }
 
     @PostMapping("/add")
