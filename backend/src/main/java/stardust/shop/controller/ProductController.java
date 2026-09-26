@@ -25,7 +25,7 @@ public class ProductController {
     public ResponseEntity<List<ProductDto>> getAll(
         @RequestParam(required = false, defaultValue = "1") int pageNo,
         @RequestParam(required = false, defaultValue = "25") int pageSize,
-        @RequestParam(required = false, defaultValue = "id") String sortBy,
+        @RequestParam(required = false, defaultValue = "uuid") String sortBy,
         @RequestParam(required = false, defaultValue = "asc") String sortOrder
     ) {
         Sort sort = null;

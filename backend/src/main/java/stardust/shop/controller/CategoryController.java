@@ -15,6 +15,7 @@ import stardust.shop.service.CategoryService;
 
 @RestController
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:5173")
 @RequestMapping("api/category")
 public class CategoryController {
 
@@ -32,7 +33,7 @@ public class CategoryController {
     public ResponseEntity<List<CategoryDto>> getCategories(
         @RequestParam(required = false, defaultValue = "0") int pageNo,
         @RequestParam(required = false, defaultValue = "10") int pageSize,
-        @RequestParam(required = false, defaultValue = "id") String sortBy,
+        @RequestParam(required = false, defaultValue = "uuid") String sortBy,
         @RequestParam(required = false, defaultValue = "asc") String sortOrder
     ) {
         Sort sort = null;
@@ -41,9 +42,8 @@ public class CategoryController {
         } else {
             sort = Sort.by(sortBy).descending();
         }
-        /* page numbers will be counted from one so -1 */
         return ResponseEntity.ok(
-            categoryService.getAll(PageRequest.of(pageNo - 1, pageSize))
+            categoryService.getAll(PageRequest.of(pageNo, pageSize, sort))
         );
     }
 
