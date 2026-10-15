@@ -7,10 +7,12 @@ import Story from "./components/section/Story";
 import Footer from "./components/footer/Footer";
 import { useEffect } from "react";
 import { fetchCategories } from "./api/fetchCategories";
+import { useDispatch } from "react-redux";
 
 function App() {
-  /* remember these are always at the top level but of a component */
+  const dispatch = useDispatch();
 
+  /* remember these are always at the top level but of a component */
   useEffect(function () {
     function fetchCat() {
       fetchCategories().then((response) => {
