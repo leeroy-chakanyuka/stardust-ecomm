@@ -8,9 +8,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import stardust.shop.dto.CategoryDto;
 import stardust.shop.dto.ProductDto;
-import stardust.shop.model.Product;
 import stardust.shop.service.ProductService;
 
 @RequiredArgsConstructor
@@ -23,7 +21,7 @@ public class ProductController {
 
     @GetMapping("/get/all")
     public ResponseEntity<List<ProductDto>> getAll(
-        @RequestParam(required = false, defaultValue = "1") int pageNo,
+        @RequestParam(required = false, defaultValue = "0") int pageNo,
         @RequestParam(required = false, defaultValue = "25") int pageSize,
         @RequestParam(required = false, defaultValue = "uuid") String sortBy,
         @RequestParam(required = false, defaultValue = "asc") String sortOrder
@@ -51,6 +49,13 @@ public class ProductController {
         @PathVariable("id") UUID id
     ) {
         return ResponseEntity.ok(productService.getById(id));
+    }
+
+    @GetMapping("/get/legacy/{legacyId}")
+    public ResponseEntity<ProductDto> getProductByLegacyId(
+        @PathVariable("legacyId") Integer legacyId
+    ) {
+        return ResponseEntity.ok(productService.getByLegacyId(legacyId));
     }
 
     @PutMapping("/update/{id}")

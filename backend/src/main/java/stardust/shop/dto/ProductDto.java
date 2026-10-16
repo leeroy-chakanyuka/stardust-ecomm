@@ -10,5 +10,6 @@ import java.util.UUID;
 public record ProductDto (UUID uuid, Integer legacyId, String name, String description,
                           BigDecimal price, String brand, boolean isNewArrival,
                           UUID categoryID, UUID categoryTypeID, Integer discount, String thumbnail,
-                          List<String> images, Double rating, Gender gender, List<Size> sizes, List<ProductVariantDto> variants) {
+                          List<String> images, Double rating, Gender gender, List<Size> sizes,
+                          List<ProductVariantDto> variants, List<String> colors) {
 }
