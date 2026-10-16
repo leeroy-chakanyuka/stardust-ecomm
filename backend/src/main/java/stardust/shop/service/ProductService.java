@@ -192,7 +192,7 @@ public class ProductService implements iProductService {
         Category category =
             dto.categoryID() == null
                 ? null
-                : categoryRepositor
+                : categoryRepository
                       .findById(dto.categoryID())
                       .orElseThrow(() ->
                           new ResponseStatusException(
