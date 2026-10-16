@@ -1,10 +1,9 @@
 package stardust.shop.service;
 
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
 import java.net.URI;
 import java.util.Locale;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 /** Keeps stored object keys portable between local static files and public S3/CDN URLs. */
 @Component
@@ -12,12 +11,20 @@ public class MediaUrlResolver {
 
     private final String baseUrl;
 
-    public MediaUrlResolver(@Value("${app.media.base-url:/images}") String baseUrl) {
-        String value = baseUrl.strip();
+    public MediaUrlResolver(
+        @Value("${app.media.base-url:/images}") String baseUrl
+    ) {
+        String value = baseUrl.strip(); // remove whitespace (front or back)
         URI base = URI.create(value);
-        if ((!value.startsWith("/") && !isAbsoluteUrl(value))
-                || value.startsWith("//") || base.getQuery() != null || base.getFragment() != null) {
-            throw new IllegalArgumentException("Media base URL must be an HTTP(S) URL or root-relative path");
+        if (
+            (!value.startsWith("/") && !isAbsoluteUrl(value)) ||
+            value.startsWith("//") ||
+            base.getQuery() != null ||
+            base.getFragment() != null
+        ) {
+            throw new IllegalArgumentException(
+                "Media base URL must be an HTTP(S) URL or root-relative path"
+            );
         }
         this.baseUrl = value.replaceAll("/+$", "");
     }
@@ -25,7 +32,12 @@ public class MediaUrlResolver {
     /** Resolve a key for the API, leaving remote originals intact. */
     public String toUrl(String reference) {
         String key = toReference(reference);
-        if (key == null || key.isBlank() || isAbsoluteUrl(key) || key.startsWith("//")) {
+        if (
+            key == null ||
+            key.isBlank() ||
+            isAbsoluteUrl(key) ||
+            key.startsWith("//")
+        ) {
             return key;
         }
         return baseUrl + "/" + key;
