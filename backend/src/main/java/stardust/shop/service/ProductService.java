@@ -192,7 +192,7 @@ public class ProductService implements iProductService {
         Category category =
             dto.categoryID() == null
                 ? null
-                : categoryRepository
+                : categoryRepositor
                       .findById(dto.categoryID())
                       .orElseThrow(() ->
                           new ResponseStatusException(
@@ -213,7 +213,7 @@ public class ProductService implements iProductService {
                           )
                       );
 
-                      /* check to see if relationship between cat and cat_type mismatch  */
+        /* check to see if relationship between cat and cat_type mismatch  */
         if (
             type != null &&
             (category == null ||

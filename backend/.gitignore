@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Share configuration placeholders while the real .env stays local.
+!.env.example

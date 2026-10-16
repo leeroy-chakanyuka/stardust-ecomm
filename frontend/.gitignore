@@ -35,4 +35,7 @@ scripts/__pycache__/
 
 scripts/*
 src/assets/img/gallery/*
-scr/data/*
+src/data/*
+
+# Local product media; publish these same object keys to S3 later.
+public/images/products/

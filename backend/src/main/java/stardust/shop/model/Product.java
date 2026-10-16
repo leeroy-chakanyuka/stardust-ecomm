@@ -46,13 +46,14 @@ public class Product {
     /** Discount percent e.g. 59. Null = no discount. */
     private Integer discount;
 
-    /** Main image URL. */
+    /** Portable media key, or an existing absolute image URL. */
     @Column(length = 1024)
     private String thumbnail;
 
-    /** Extra gallery image URLs. */
+    /** Gallery media references in display order, including the original image. */
     @ElementCollection
     @CollectionTable(name = "product_images", joinColumns = @JoinColumn(name = "product_id"))
+    @OrderColumn(name = "sort_order", nullable = false)
     @Column(name = "image_url", length = 1024, nullable = false)
     @Builder.Default
     private List<String> images = new ArrayList<>();
@@ -70,7 +71,7 @@ public class Product {
     @JoinColumn(name = "type_id")
     private CategoryType type;
 
-    /** Available sizes — closed taxonomy, stored as codes ("M", "UK 6", "One Size"). */
+    /** Available sizes; SQL stores enum names, while JSON exposes their display codes. */
     @ElementCollection(targetClass = Size.class)
     @CollectionTable(name = "product_sizes", joinColumns = @JoinColumn(name = "product_id"))
     @Enumerated(EnumType.STRING)
@@ -78,7 +79,13 @@ public class Product {
     @Builder.Default
     private List<Size> sizes = new ArrayList<>();
 
-    /* we wouldn't need to keep a colors list as the colors are in the product variant, we just grab from there*/
+    /** Catalog colour tags, independent of colour/size inventory and stock levels. */
+    @ElementCollection
+    @CollectionTable(name = "product_colors", joinColumns = @JoinColumn(name = "product_id"))
+    @OrderColumn(name = "sort_order", nullable = false)
+    @Column(name = "color", nullable = false)
+    @Builder.Default
+    private List<String> colors = new ArrayList<>();
 
     @Column(nullable = false, updatable = false)
     private LocalDateTime createdAt;
