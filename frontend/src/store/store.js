@@ -2,6 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import categoryReducer from "./features/category";
 import productReducer from "./features/product";
 import cartReducer from "./features/cart";
+import commonReducer from "./features/common";
 
 /**
  * this will generate this structure, accessible by state.category.xyz
@@ -9,6 +10,7 @@ import cartReducer from "./features/cart";
  *   category: { categories: [] },
  *   product: { products: [] },
  *   cart: { cart: [] },
+ *   common: { loading: false },
  * }
  *
  *
@@ -21,5 +23,6 @@ export const store = configureStore({
     category: categoryReducer,
     product: productReducer,
     cart: cartReducer,
+    common: commonReducer,
   },
 });
